@@ -1,5 +1,5 @@
 
-=======
+
 import { filterByType, searchByName, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes  } from "./data.js";
 import data from "./data/pokemon/pokemon.js";
 
@@ -80,8 +80,8 @@ sortNumInput.addEventListener("change", () => {
 })
 
 //procurar por nome
-const searchNameInput = document.getElementById("searchName")
-searchNameInput.addEventListener("change", () =>{
+const searchNameInput = document.getElementById("searchByName")
+searchNameInput.addEventListener("input", () =>{
   const nameInput = searchNameInput.value.toLowerCase()
   const filteredPokemons = searchByName(nameInput)
   updatePokemonList(filteredPokemons)
