@@ -79,7 +79,7 @@ sortNumInput.addEventListener("change", () => {
 
 //procurar por nome
 const searchNameInput = document.getElementById("searchName")
-searchNameInput.addEventListener("change", () =>{
+searchNameInput.addEventListener("input", () =>{
   const nameInput = searchNameInput.value.toLowerCase()
   const filteredPokemons = searchByName(nameInput)
   updatePokemonList(filteredPokemons)

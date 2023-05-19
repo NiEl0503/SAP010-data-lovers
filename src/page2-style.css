@@ -83,7 +83,8 @@ input {
 }
 
 #confirm:hover{
-    background: linear-gradient(to left, #0082c8, #c87f00, #0082c8, #c87f00);
+    background: rgb(36,28,0);
+background: linear-gradient(66deg, rgba(36,28,0,1) 0%, rgba(255,251,140,0.7539390756302521) 0%, rgba(152,172,251,0.7959558823529411) 49%);
   }
 
 main {
@@ -112,7 +113,9 @@ main {
 }
 
 #pokémon-card-one-container :hover{
-    background: linear-gradient(to left, #0082c8, #c87f00, #0082c8, #c87f00);
+    background: rgb(36,28,0);
+    background: linear-gradient(66deg, rgba(36,28,0,1) 0%, rgba(255,251,140,0.7539390756302521) 0%, rgba(152,172,251,0.7959558823529411) 49%);
+    text-decoration-color: blue;
   }
 
   #pokémon-card-two-container :hover{
