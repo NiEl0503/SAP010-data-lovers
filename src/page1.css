@@ -440,12 +440,15 @@ header {
     display: none;
   }
 }*/
+allPokemon {
+  grid-template-columns: 200px 200px;
+ }
 
 header {
-  height: 3.5em;
+  height: 14.5em;
 }
 
-.logo {
+.logo1 {
   outline: none;
   transform: none;
 }
@@ -453,16 +456,15 @@ header {
 #imagen {
   width: 9em;
 }
-.container {
+/*.container {
   margin-top: 5em;
-}
+}*/
 
 .card-main-display {
-  display: block;
+  display: flex;
   margin: auto;
   max-width: 75%;
-  padding: 0.5em 1em;
-  text-align: center;
+  
 }
 
 /*/#clear-filter-button-home {
@@ -473,7 +475,7 @@ header {
   margin: 2em;
 }*/
 
-
+}*
 
 @media screen and (max-width:590px) {
   .nav1 {

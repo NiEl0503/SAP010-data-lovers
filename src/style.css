@@ -65,12 +65,9 @@ header {
 
 @media screen and (max-width:1024px) {
   #imagen {
-  display: flex;
-  width: 30%;
-   padding-top: 70px;
-   justify-content: space-around;
-   
-}
+    display: flex;
+    
+  }
 }
 
 
@@ -96,3 +93,4 @@ pok{
   
 }
 }
+
