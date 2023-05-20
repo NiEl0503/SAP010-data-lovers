@@ -66,7 +66,7 @@ secondPokemonForm.addEventListener("submit", (event) => {
    
    
     if (secondSearchedPoke) {          
-        console.log("teste")
+        // console.log("teste")
         const pokemonCardTwo = document.querySelector("#pokémon-card-two-container")
         pokemonCardTwo.innerHTML = `
         
