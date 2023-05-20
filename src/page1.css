@@ -402,9 +402,9 @@ header {
 
   }
 }
-
+ /*
 @media screen and (max-width:761px) {
-  /*.allPokemon {
+ .allPokemon {
     grid-template-columns: 200px 200px;
     margin-bottom: 10px;
   }
@@ -438,8 +438,8 @@ header {
     max-width: 10px;
     margin-top: 10px;
     display: none;
-  }
-}*/
+  }*/
+}
 
 header {
   height: 3.5em;
