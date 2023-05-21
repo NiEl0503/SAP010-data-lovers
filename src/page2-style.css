@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     background-color: rgb(175, 208, 236);
+    background-color: rgb(175, 208, 236);
 }
 
 header {
@@ -16,7 +16,7 @@ header {
     width: 100%;
     margin-top: 10px;
     justify-content: center;
-  }
+}
 
 .navBtn1 {
     max-width: 150px;
@@ -31,7 +31,7 @@ header {
 
 .nav1 {
     padding-left: 170px;
-  }
+}
 
 .navBtn2 {
     max-width: 150px;
@@ -46,8 +46,9 @@ header {
 
 .prompt {
     text-align: center;
-    font-size: 3rem;
-   color: rgb(70, 148, 211);
+    font-size: 2.5rem;
+    color: rgb(70, 148, 211);
+    margin: 50px 0 50px 0;
 }
 
 .pokemonSelection {
@@ -70,22 +71,22 @@ input {
     border-radius: 2vw;
 }
 
-#confirm{
-  width: 60vw;
-  max-width: 80px;
-  margin: 20px;
-  padding: 10px;
-  font-size: 14px;
-  font-weight: bold;
-  border: 2px solid rgb(43, 144, 226);
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgb(43, 144, 226);
+#confirm {
+    width: 60vw;
+    max-width: 80px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid rgb(43, 144, 226);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(43, 144, 226);
 }
 
-#confirm:hover{
-    background: rgb(36,28,0);
-background: linear-gradient(66deg, rgba(36,28,0,1) 0%, rgba(255,251,140,0.7539390756302521) 0%, rgba(152,172,251,0.7959558823529411) 49%);
-  }
+#confirm:hover {
+    background: rgb(36, 28, 0);
+    background: linear-gradient(66deg, rgba(36, 28, 0, 1) 0%, rgba(255, 251, 140, 0.7539390756302521) 0%, rgba(152, 172, 251, 0.7959558823529411) 49%);
+}
 
 main {
     height: 100%;
@@ -112,18 +113,18 @@ main {
     border-radius: 2vw;
 }
 
-#pokémon-card-one-container :hover{
-    background: rgb(36,28,0);
-    background: linear-gradient(66deg, rgba(36,28,0,1) 0%, rgba(255,251,140,0.7539390756302521) 0%, rgba(152,172,251,0.7959558823529411) 49%);
-    text-decoration-color: blue;
-  }
+#pokémon-card-one-container :hover {
+    background: rgb(36, 28, 0);
+    background: linear-gradient(66deg, rgba(36, 28, 0, 1) 0%, rgba(255, 251, 140, 0.7539390756302521) 0%, rgba(152, 172, 251, 0.7959558823529411) 49%);
+}
 
-  #pokémon-card-two-container :hover{
-    background: linear-gradient(to left, #0082c8, #c87f00, #0082c8, #c87f00);
-  }
+#pokémon-card-two-container :hover {
+    background: rgb(36, 28, 0);
+    background: linear-gradient(66deg, rgba(36, 28, 0, 1) 0%, rgba(255, 251, 140, 0.7539390756302521) 0%, rgba(152, 172, 251, 0.7959558823529411) 49%);
+}
 
 .pokémon-card {
-    background-color:  rgb(175, 208, 236);
+    background-color: rgb(175, 208, 236);
     width: 400px;
     text-align: center;
     font-size: 1.5rem;
@@ -134,20 +135,24 @@ main {
 
 .pokeStats {
     background-color: transparent;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: rgb(175, 208, 236);
     text-align: center;
     margin-top: 20px;
 }
 
+.pokeStats:hover {
+    color: rgb(61, 61, 162);
+}
+
 #firstPokeName,
 #secondPokeName {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #firstPokeNum,
 #secondPokeNum {
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 
 #firstPokeImg,
@@ -161,10 +166,44 @@ main {
     font-size: 2.5rem;
 }
 
+#firstPokeType:hover {
+    color: rgb(61, 61, 162);
+}
 
 
-/* 
+#secondPokeType:hover {
+    color: rgb(61, 61, 162);
+}
 
 
+@media screen and (max-width:1050px) {
+    .logo {
+    display: flex;
+  }
 
+  header {
+    background-color: rgb(140, 172, 198);
+    padding-left: 400px;
+    height: 300px;
+    width: 100%;
+    }
+    .nav1 {
+        display: flex;
+            }
+        }
 
+        @media screen and (max-width:843px) {
+            .logo {
+            display: flex;
+          }
+        
+          header {
+            background-color: rgb(140, 172, 198);
+            padding-left: 400px;
+            height: 300px;
+            width: 100%;
+            }
+            .nav1 {
+                display: flex;
+                    }
+                }
