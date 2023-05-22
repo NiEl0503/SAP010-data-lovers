@@ -1,4 +1,5 @@
 * {
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,6 +33,41 @@ header {
   color: rgb(226, 226, 20);
   margin-top: 120px;
 }
+=======
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+header {
+   background-color: rgb(140, 172, 198);
+   padding-left: 400px;
+   height: 200px;
+   width: 100%;
+   margin-top: 10px;
+   justify-content: center;
+ }
+
+ .logo {
+   margin-top: 30px;
+    }
+
+ .conteiner {
+   background-color: transparent;
+   height: 50px;
+   width: 200px;
+   text-align: center;
+      
+}
+
+   #footerText {
+      background-color: rgb(140, 172, 198);
+      text-align: center;
+      width: 100%;
+      color: rgb(226, 226, 20);
+      margin-top: 120px;
+    }
+
 
 .btn2 {
   max-width: 150px;
@@ -146,6 +182,8 @@ header {
     margin-top: 100px;
   }
 }
+/*
+
 
 media screen and (max-width:800px) {
   #imagen {
@@ -305,4 +343,83 @@ media screen and (max-width:771px) {
   #footerText {
     margin-top: 100px;
   }
+=======
+@media screen and (max-width:1015px) {
+   .logo {
+   display: flex;
+ }
+
+ .conteiner {
+   width: 85%;
+   max-width: 600px;
+   border-radius: 10px;
+   margin-top: 20px;
+ }
+
+ .footer {
+   width: 85%;
+   max-width: 800px;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+ .welcome {
+   margin: 50px 10px 10px;
+   width: 100%;
+    }
+}
+
+@media screen and (max-width:810px) {
+
+ .conteiner {
+   margin: 50px 10px 10px;
+   width: 100%;
+   max-width: 800px;
+   align-items: center;
+ }
+}
+
+ @media screen and (max-width:670px) {
+ .conteiner {
+   grid-template-columns: 200px 200px;
+   margin-bottom: 10px;
+ }
+}
+
+@media screen and (max-width:590px) {
+ .conteiner{
+   display: flex;
+   width: 50px;
+   height: 40px;
+   margin-top: 10px;
+   padding: 6px;
+}
+}
+
+ .footer {
+   max-width: 250px;
+   margin-top: 20px;
+   display: none;
+ }
+
+ .welcome {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .logo{
+   display: flex;
+   align-items: center;
+ }
+
+@media screen and (max-width:470px) {
+
+ .conteiner {
+   margin: 50px 10px 10px;
+   width: 100%;
+   max-width: 350px;
+   align-items: center;
+ 
+ }
+ main
 }*/

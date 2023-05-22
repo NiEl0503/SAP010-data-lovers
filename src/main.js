@@ -1,3 +1,5 @@
+
+
 import { filterByType, searchByName, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes  } from "./data.js";
 import data from "./data/pokemon/pokemon.js";
 
