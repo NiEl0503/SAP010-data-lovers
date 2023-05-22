@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ nova
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(175, 208, 236);
+=======
   }
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      background-color: rgb(175, 208, 236);
+ main
 }
 
 header {
@@ -16,6 +24,25 @@ header {
     width: 100%;
     margin-top: 10px;
     justify-content: center;
+nova
+}
+
+.navBtn1 {
+    max-width: 150px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid rgb(22, 234, 220);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(43, 144, 226);
+}
+
+.nav1 {
+    padding-left: 170px;
+}
+
+=======
   }
 
 .navBtn1 {
@@ -33,6 +60,7 @@ header {
     padding-left: 170px;
   }
 
+
 .navBtn2 {
     max-width: 150px;
     margin: 20px;
@@ -46,8 +74,14 @@ header {
 
 .prompt {
     text-align: center;
+
+    font-size: 2.5rem;
+    color: rgb(70, 148, 211);
+    margin: 50px 0 50px 0;
+=======
     font-size: 3rem;
    color: rgb(70, 148, 211);
+ main
 }
 
 .pokemonSelection {
@@ -68,6 +102,26 @@ input {
     padding: 2vh 1vw 2vh 2vw;
     box-shadow: 2px 2px 5px rgb(43, 144, 226);
     border-radius: 2vw;
+
+}
+
+#confirm {
+    width: 60vw;
+    max-width: 80px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid rgb(43, 144, 226);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(43, 144, 226);
+}
+
+#confirm:hover {
+    background: rgb(36, 28, 0);
+    background: linear-gradient(66deg, rgba(36, 28, 0, 1) 0%, rgba(255, 251, 140, 0.7539390756302521) 0%, rgba(152, 172, 251, 0.7959558823529411) 49%);
+=======
+
 }
 
 #confirm{
@@ -109,6 +163,19 @@ main {
     margin-top: 5vh;
     margin-bottom: 5vh;
     border-radius: 2vw;
+
+}
+
+#pokémon-card-one-container :hover {
+    background: rgb(36, 28, 0);
+    background: linear-gradient(66deg, rgba(36, 28, 0, 1) 0%, rgba(255, 251, 140, 0.7539390756302521) 0%, rgba(152, 172, 251, 0.7959558823529411) 49%);
+}
+
+#pokémon-card-two-container :hover {
+    background: rgb(36, 28, 0);
+    background: linear-gradient(66deg, rgba(36, 28, 0, 1) 0%, rgba(255, 251, 140, 0.7539390756302521) 0%, rgba(152, 172, 251, 0.7959558823529411) 49%);
+=======
+main
 }
 
 #pokémon-card-one-container :hover{
@@ -120,6 +187,8 @@ main {
   }
 
 .pokémon-card {
+
+  
     background-color:  rgb(175, 208, 236);
     width: 400px;
     text-align: center;
@@ -131,20 +200,27 @@ main {
 
 .pokeStats {
     background-color: transparent;
-    font-size: 2.5rem;
+
+    font-size: 2rem;
     color: rgb(175, 208, 236);
     text-align: center;
     margin-top: 20px;
 }
 
+
+.pokeStats:hover {
+    color: rgb(61, 61, 162);
+}
+
 #firstPokeName,
 #secondPokeName {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #firstPokeNum,
 #secondPokeNum {
-    font-size: 3.5rem;
+    font-size: 2rem;
+
 }
 
 #firstPokeImg,
@@ -158,11 +234,46 @@ main {
     font-size: 2.5rem;
 }
 
-
+#firstPokeType:hover {
+    color: rgb(61, 61, 162);
+}
 
 /* 
 
 
+#secondPokeType:hover {
+    color: rgb(61, 61, 162);
+}
 
 
-*/
+@media screen and (max-width:1050px) {
+    .logo {
+    display: flex;
+  }
+
+  header {
+    background-color: rgb(140, 172, 198);
+    padding-left: 400px;
+    height: 300px;
+    width: 100%;
+    }
+    .nav1 {
+        display: flex;
+            }
+        }
+
+        @media screen and (max-width:843px) {
+            .logo {
+            display: flex;
+          }
+        
+          header {
+            background-color: rgb(140, 172, 198);
+            padding-left: 400px;
+            height: 300px;
+            width: 100%;
+            }
+            .nav1 {
+                display: flex;
+                    }
+                }
