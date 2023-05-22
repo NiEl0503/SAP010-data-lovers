@@ -2,20 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- nova
-}
+ }
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(175, 208, 236);
-=======
   }
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      background-color: rgb(175, 208, 236);
- main
-}
+ }
 
 header {
     background-color: rgb(140, 172, 198);
@@ -24,7 +21,6 @@ header {
     width: 100%;
     margin-top: 10px;
     justify-content: center;
-nova
 }
 
 .navBtn1 {
@@ -41,9 +37,6 @@ nova
 .nav1 {
     padding-left: 170px;
 }
-
-=======
-  }
 
 .navBtn1 {
     max-width: 150px;
@@ -78,10 +71,8 @@ nova
     font-size: 2.5rem;
     color: rgb(70, 148, 211);
     margin: 50px 0 50px 0;
-=======
     font-size: 3rem;
    color: rgb(70, 148, 211);
- main
 }
 
 .pokemonSelection {
@@ -120,8 +111,6 @@ input {
 #confirm:hover {
     background: rgb(36, 28, 0);
     background: linear-gradient(66deg, rgba(36, 28, 0, 1) 0%, rgba(255, 251, 140, 0.7539390756302521) 0%, rgba(152, 172, 251, 0.7959558823529411) 49%);
-=======
-
 }
 
 #confirm{
@@ -135,6 +124,17 @@ input {
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgb(43, 144, 226);
 }
+#confirm1{
+    width: 60vw;
+    max-width: 80px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid rgb(43, 144, 226);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(43, 144, 226);
+  }
 
 #confirm:hover{
     background: linear-gradient(to left, #0082c8, #c87f00, #0082c8, #c87f00);
@@ -174,8 +174,7 @@ main {
 #pokémon-card-two-container :hover {
     background: rgb(36, 28, 0);
     background: linear-gradient(66deg, rgba(36, 28, 0, 1) 0%, rgba(255, 251, 140, 0.7539390756302521) 0%, rgba(152, 172, 251, 0.7959558823529411) 49%);
-=======
-main
+
 }
 
 #pokémon-card-one-container :hover{
@@ -238,7 +237,7 @@ main
     color: rgb(61, 61, 162);
 }
 
-/* 
+
 
 
 #secondPokeType:hover {

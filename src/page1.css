@@ -30,8 +30,7 @@ header {
 }
 
 .nav1 {
- display: flex;
-
+  display: flex;
   padding-left: 170px;
 }
 
@@ -52,9 +51,6 @@ header {
   height: auto;
   padding-top: 0px;
 }
-
-}
-
 
 .numberName {
   padding-top: 0px;
@@ -562,5 +558,5 @@ align-items: center;
   align-items: center;
 
 }
-}*/
+}
 

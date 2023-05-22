@@ -11,14 +11,12 @@
 
 <body>
     <div class= "contentAll">
-    <header>
-
-
+    <header>   
         <figure id="imagen">
             <img class="logo1" src="PokeData.png" alt="Logo PokeData Go" />
             <img class="logo2" src="Go.png" alt="Logo PokeData Go" />
-
         </figure>
+        
         <div class="nav1">
             <button onclick="location.href='index.html'" class="btn1">Homepage</button>
             <button onclick="location.href='page2.html'" class="btn1">Compare</button>
@@ -42,9 +40,11 @@
                             <option value="Z-A">Z-A</option>
                         </select>
                     </div>
+                </nav>
             </section>
 
             <div class="btName">
+                <nav class="nav">
                 <select id="sortNum" class="btn-num">
 
                 <option value="0-9">Pokédex Number</option>
@@ -74,18 +74,17 @@
                     <option value="Steel">Steel</option>
                     <option value="Water">Water</option>
                 </select>
-            </div>
-            </nav>
+                </nav>
         </div>
-
+    </div>
 
       <!--  <h2 class="statistic">Foram encontrados 251 tipos de pokemons, equivale a 100.0%</h2>-->
 
 
         <section class="figureCard">
-            <div class="allPokemon" id=pokemonList></div>
+            <div class="allPokemon" id="pokemonList"></div>
         </section>
-
+        
     </main>
 
     <footer class="footer">
@@ -95,4 +94,4 @@
     </div>
     <script src="main.js" type="module"></script>
 </body>
-
+</html>

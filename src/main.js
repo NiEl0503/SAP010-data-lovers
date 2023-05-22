@@ -1,5 +1,3 @@
-
-
 import { filterByType, searchByName, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes  } from "./data.js";
 import data from "./data/pokemon/pokemon.js";
 
@@ -56,11 +54,11 @@ typeInput.addEventListener("change", () => {
 //função de ordenar em ordem alfabética
 const sortNameInput = document.getElementById("sortName")
 sortNameInput.addEventListener("change", () => {
-  if  (sortNameInput.value == "A-Z") {
-    let orderedByNamePokemons = sortByNameAZ()
+  if  (sortNameInput.value === "A-Z") {
+    const orderedByNamePokemons = sortByNameAZ()
     return updatePokemonList(orderedByNamePokemons)
-  } else if (sortNameInput.value == "Z-A") {
-    let orderedByNamePokemons = sortByNameZA()
+  } else if (sortNameInput.value === "Z-A") {
+    const orderedByNamePokemons = sortByNameZA()
     return updatePokemonList(orderedByNamePokemons)
 
   }
@@ -70,11 +68,11 @@ sortNameInput.addEventListener("change", () => {
 //ordenar por número
 const sortNumInput = document.getElementById("sortNum")
 sortNumInput.addEventListener("change", () => {
-  if (sortNumInput.value == "0-9") {
-    let orderedByNumPokemons = sortByNumAsc()
+  if (sortNumInput.value === "0-9") {
+    const orderedByNumPokemons = sortByNumAsc()
     return updatePokemonList(orderedByNumPokemons)
-  } else if (sortNumInput.value == "9-0") {
-    let orderedByNumPokemons = sortByNumDes()
+  } else if (sortNumInput.value === "9-0") {
+    const orderedByNumPokemons = sortByNumDes()
     return updatePokemonList(orderedByNumPokemons)
   }
 })
@@ -94,4 +92,3 @@ const amountPokemon = pkmCards.querySelectorAll(".card").length
   const totalPercent = percentPokemons.toFixed(1)
   
   statisticText.innerText = `Foram encontrados ${amountPokemon} tipos de pokemons, equivale a ${totalPercent}%`*/
-
