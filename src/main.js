@@ -1,3 +1,5 @@
+
+
 import { filterByType, searchByName, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes  } from "./data.js";
 import data from "./data/pokemon/pokemon.js";
 
@@ -78,7 +80,7 @@ sortNumInput.addEventListener("change", () => {
 })
 
 //procurar por nome
-const searchNameInput = document.getElementById("searchName")
+const searchNameInput = document.getElementById("searchByName")
 searchNameInput.addEventListener("input", () =>{
   const nameInput = searchNameInput.value.toLowerCase()
   const filteredPokemons = searchByName(nameInput)
@@ -86,4 +88,10 @@ searchNameInput.addEventListener("input", () =>{
 
 })
 
+/*const statisticText = document.querySelector(".statistic");
+const amountPokemon = pkmCards.querySelectorAll(".card").length
+  const percentPokemons = amountPokemon / data.pokemon.length * 100
+  const totalPercent = percentPokemons.toFixed(1)
+  
+  statisticText.innerText = `Foram encontrados ${amountPokemon} tipos de pokemons, equivale a ${totalPercent}%`*/
 
