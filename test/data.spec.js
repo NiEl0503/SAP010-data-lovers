@@ -1,5 +1,5 @@
 
-import { searchByName, filterByType} from '../src/data.js';
+import { searchByName, filterByType, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes} from '../src/data.js';
 
 
 const bulbasaur = {
@@ -65,5 +65,58 @@ describe('Search pokemon by type', () => {
     expect(filterByType(inputType4, testPkm)).toEqual([bulbasaur]);
   });
 
+});
+
+describe('Search pokemon in alphabetical order A-Z', () => {
+  it('is a function', () => {
+    expect(typeof sortByNameAZ).toBe('function');
+  });
+  
+  it('Sort the pokemon in alphabetical order', () => {
+    const orderAZ = "a-z"
+    
+
+    expect(sortByNameAZ(orderAZ, testPkm)).toEqual([bulbasaur, charmander, squirtle]);
+    
+  });
+});
+
+describe('Search pokemon in alphabetical order Z-A', () => {
+  it('is a function', () => {
+    expect(typeof sortByNameZA).toBe('function');
+  });
+  
+  it('Sort the pokemon in alphabetical order', () => {
+    const orderZA = "z-a"
+
+    expect(sortByNameZA(orderZA, testPkm)).toEqual([squirtle, charmander, bulbasaur]);
+  });
+});
+
+describe('search pokemon by pokedex number ascending', () => {
+  it('is a function', () => {
+    expect(typeof sortByNumAsc).toBe('function');
+  });
+  
+  it('sort pokemon according to pokedex number', () => {
+    const orderAsc = "0-9"
+    
+    expect(sortByNumAsc(orderAsc, testPkm)).toEqual([bulbasaur, charmander, squirtle]);
+    
+  });
+});
+
+
+describe('search pokemon by pokedex number descending', () => {
+  it('is a function', () => {
+    expect(typeof sortByNumDes).toBe('function');
+  });
+  
+  it('sort pokemon according to pokedex number', () => {
+    const orderDes = "9-0"
+    
+    expect(sortByNumDes(orderDes, testPkm)).toEqual([squirtle, charmander, bulbasaur]);
+    
+  });
 });
 

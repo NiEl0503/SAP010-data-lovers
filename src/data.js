@@ -2,8 +2,8 @@
 import data from "./data/pokemon/pokemon.js";
 
 //primeira função: ordernar em ordem alfabética
-export const sortByNameAZ = () => {
-  const sortedPokemonsByName = [...data.pokemon].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
+export const sortByNameAZ = (sort, pokemones = data.pokemon) => {
+  const sortedPokemonsByName = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const nameA = a.name.toLowerCase(); //toLowerCase para não diferenciar maiúsculas e minúsculas
     const nameB = b.name.toLowerCase();
 
@@ -20,8 +20,8 @@ export const sortByNameAZ = () => {
 
 }
 // ordenar de z-a (mesma coisa do a-z, só troca o sinal)
-export const sortByNameZA = () => {
-  const sortedPokemonsByName = [...data.pokemon].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
+export const sortByNameZA = (sort, pokemones = data.pokemon) => {
+  const sortedPokemonsByName = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const nameA = a.name.toLowerCase(); //toLowerCase para não diferenciar maiúsculas e minúsculas
     const nameB = b.name.toLowerCase();
 
@@ -41,8 +41,8 @@ export const sortByNameZA = () => {
 }
 
 // Segunda função, ordenar pelo número da pokédex (mesma lógica da anterior, só muda o parâmetro de name pra num)
-export const sortByNumAsc = () => {
-  const sortedPokemonsByNum = [...data.pokemon].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
+export const sortByNumAsc = (sort, pokemones = data.pokemon) => {
+  const sortedPokemonsByNum = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const numA = a.num
     const numB = b.num
 
@@ -59,8 +59,8 @@ export const sortByNumAsc = () => {
 
 }
 //decrescente
-export const sortByNumDes = () => {
-  const sortedPokemonsByNum = [...data.pokemon].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
+export const sortByNumDes = (sort, pokemones = data.pokemon) => {
+  const sortedPokemonsByNum = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const numA = a.num
     const numB = b.num
 
