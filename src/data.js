@@ -1,4 +1,3 @@
-
 import data from "./data/pokemon/pokemon.js";
 
 //primeira função: ordernar em ordem alfabética
@@ -100,14 +99,3 @@ export const searchByName = (name, pokemones = data.pokemon) => {
   return filteredByName
 
 }
-
-
-/*daqui pra baixo vou colcoar as funções 
-que vou precisar para a página de comparar pokémons */
-
-
-
-
-
-
-

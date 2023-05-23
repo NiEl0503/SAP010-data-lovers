@@ -1,4 +1,3 @@
-
 import { searchByName, filterByType, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes} from '../src/data.js';
 
 
@@ -119,4 +118,3 @@ describe('search pokemon by pokedex number descending', () => {
     
   });
 });
-
