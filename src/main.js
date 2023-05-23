@@ -21,6 +21,7 @@ function updatePokemonList(filteredPokemons) {
     pokemon.type.forEach((type) => {
       typePkm += `<p class="type-style ${type}">${type}</p>`
     });
+    card.classList.add("card-pokemon")
     card.innerHTML = `
       <div class="pokemon">
         <p class="pokemon-numero">${pokemon.num}</p>
@@ -86,9 +87,12 @@ searchNameInput.addEventListener("input", () =>{
 
 })
 
-/*const statisticText = document.querySelector(".statistic");
-const amountPokemon = pkmCards.querySelectorAll(".card").length
-  const percentPokemons = amountPokemon / data.pokemon.length * 100
-  const totalPercent = percentPokemons.toFixed(1)
+
+
+const statisticText = document.querySelector(".statistic");
+const amountPokemon = pkmCards.querySelectorAll(".card-pokemon").length
+const percentPokemons = amountPokemon / pkmnDataList.length * 100
+const totalPercent = percentPokemons.toFixed(2)
   
-  statisticText.innerText = `Foram encontrados ${amountPokemon} tipos de pokemons, equivale a ${totalPercent}%`*/
+statisticText.innerText = ` ${amountPokemon} types of pokemons were found, equals ${totalPercent}%`
+

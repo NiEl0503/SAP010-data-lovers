@@ -1,5 +1,4 @@
-
-import { searchByName, filterByType, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes} from '../src/data.js';
+import { searchByName, filterByType, sortByNameAZ, sortByNameZA, sortByNumDes, sortByNumAsc} from '../src/data.js';
 
 
 const bulbasaur = {
@@ -24,7 +23,7 @@ const squirtle = {
   ]
 }
 const testPkm = [bulbasaur, charmander, squirtle]
-
+const testPkm1 = [squirtle, charmander, bulbasaur]
 
 describe('Search pokemon by name', () => {
   it('is a function', () => {
@@ -115,8 +114,9 @@ describe('search pokemon by pokedex number descending', () => {
   it('sort pokemon according to pokedex number', () => {
     const orderDes = "9-0"
     
-    expect(sortByNumDes(orderDes, testPkm)).toEqual([squirtle, charmander, bulbasaur]);
+
+
+    expect(sortByNumDes(orderDes, testPkm1)).toEqual([squirtle, charmander, bulbasaur]);
     
   });
 });
-
