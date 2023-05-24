@@ -76,11 +76,11 @@ GitHub para armazenar o repositório do projeto.
 
 CSS/HTML/JS para estilização, marcação de texto e linguagem de programação.
 
-
+<br>
 
 ## 7. Desenvolvedoras 💕
 
-<a href="https://github.com/CristynaBC">Cristina Costa</a>
+<a href="https://github.com/CristynaBC">Cristyna Costa</a>
 <br>
 <a href="https://github.com/NiEl0503">Ninoska Contreras</a>
 
