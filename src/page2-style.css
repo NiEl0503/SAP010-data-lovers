@@ -1,4 +1,5 @@
 * {
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,6 +23,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   padding: 30px 30px 30px 30px;
+
 }
 
 .logo {
@@ -29,6 +31,7 @@ header {
   width: 40vw;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+
 
 .btn1 {
   max-width: 150px;
@@ -40,6 +43,7 @@ header {
   border-radius: 10px;
   border: 0px;
   color: white;
+
 }
 
 .btn1:hover {
@@ -53,6 +57,7 @@ header {
   font-size: 2.5rem;
   color: rgb(70, 148, 211);
   margin: 50px 0 50px 0;
+
 }
 
 .pokemonSelection {
@@ -111,6 +116,7 @@ main {
   flex-wrap: wrap;
   column-gap: 5vw;
   margin-top: 5vh;
+
 }
 
 #pokémon-card-one-container,
@@ -164,6 +170,17 @@ main {
   height: 50px;
   text-align: left;
 }
+#confirm1{
+    width: 60vw;
+    max-width: 80px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid rgb(43, 144, 226);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(43, 144, 226);
+  }
 
 #firstPokeName,
 #secondPokeName {
@@ -190,11 +207,13 @@ main {
   margin: 10px 5px 10px 5px;
 }
 
+
 .water {
   background: linear-gradient(#6890f0, #386ceb);
   border-radius: 10%;
   padding: 4px 5px 4px 5px;
   color: white;
+
 }
 
 .fire {
@@ -295,12 +314,14 @@ main {
   color: white;
 }
 
+
 .fairy {
   background: linear-gradient(#e898e8, #de6ede);
   border-radius: 10%;
   padding: 4px 5px 4px 5px;
   color: white;
 }
+
 
 .dark {
   background: linear-gradient(#705848, #513f34);

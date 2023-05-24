@@ -1,10 +1,9 @@
-// importamos el objeto `data`, que contiene las funciones `searchByName`, `filterByType`, `sortByNum` y `sortByName`
 
-import { searchByName, filterByType, sortByNum, sortByName } from '../src/data.js';
+import { searchByName, filterByType, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes} from '../src/data.js';
+
 
 const bulbasaur = {
   name: "bulbasaur",
-  num: "001",
   type: [
     "grass",
     "poison"
@@ -13,7 +12,6 @@ const bulbasaur = {
 
 const charmander = {
   name: "charmander",
-  num: "004",
   type: [
     "fire"
   ]
@@ -21,59 +19,32 @@ const charmander = {
 
 const squirtle = {
   name: "squirtle",
-  num: "007",
   type: [
     "water"
   ]
 }
-const caterpie = {
-  name: "caterpie",
-  num: "010",
-  type: [
-    "bug"
-  ]
-}
-
-const nidorina = {
-  name: "nidorina",
-  num: "030",
-  type: [
-    "poison"
-  ]
-}
-
-const jigglypuff = {
-  name: "jigglypuff",
-  num: "039",
-  type: [
-    "normal"
-  ]
-}
-
-const pkm = [bulbasaur, charmander, squirtle, caterpie, nidorina, jigglypuff]
+const testPkm = [bulbasaur, charmander, squirtle]
 
 
-describe('Search pokemon by name'), () => {
+describe('Search pokemon by name', () => {
   it('is a function', () => {
     expect(typeof searchByName).toBe('function');
   });
 
   it('returns the pokemons whose name has one of the letters written', () => {
-    const inputValue1 = "bul"
+    const inputValue1 = "bulb"
     const inputValue2 = "squi"
-    const inputValue3 = "nido"
+    const inputValue3 = "charm"
     const inputValue4 = ""
 
 
-    expect(searchByName(pkm, inputValue1)).toBe([bulbasaur]);
-    expect(searchByName(pkm, inputValue2)).toBe([squirtle]);
-    expect(searchByName(pkm, inputValue3)).toBe([nidorina]);
-    expect(searchByName(pkm, inputValue4)).toBe(pkm);
+    expect(searchByName(inputValue1, testPkm)).toEqual([bulbasaur]);
+    expect(searchByName(inputValue2, testPkm)).toEqual([squirtle]);
+    expect(searchByName(inputValue3, testPkm)).toEqual([charmander]);
+    expect(searchByName(inputValue4, testPkm)).toEqual(testPkm);
 
   });
-};
-
-
+});
 
 describe('Search pokemon by type', () => {
   it('is a function', () => {
@@ -81,48 +52,71 @@ describe('Search pokemon by type', () => {
   });
 
   it('Returns the types of pokemon searched', () => {
-  const inputTyp1 = "normal"
-  const inputType2 = "water"
-  const inputType3 = "fire"
-  const inputTyp4 = "poison"
+    
+    const inputType2 = "water"
+    const inputType3 = "fire"
+    const inputType4 = "grass"
 
 
 
-  expect(filterByType(pkm, inputType1)).toBe([jigglypuff]);
-  expect(filterByType(pkm, inputType2)).toBe([squirtle]);
-  expect(filterByType(pkm, inputType3)).toBe([charmander]);
-  expect(filterByType(pkm, inputType4)).toBe([nidorina]);
+
+    expect(filterByType(inputType2, testPkm)).toEqual([squirtle]);
+    expect(filterByType(inputType3, testPkm)).toEqual([charmander]);
+    expect(filterByType(inputType4, testPkm)).toEqual([bulbasaur]);
+  });
+
 });
 
-});
-
-
-
-describe('Search pokemon in alphabetical order', () => {
+describe('Search pokemon in alphabetical order A-Z', () => {
   it('is a function', () => {
-    expect(typeof sortByName).toBe('function');
+    expect(typeof sortByNameAZ).toBe('function');
   });
   
   it('Sort the pokemon in alphabetical order', () => {
     const orderAZ = "a-z"
+    
+
+    expect(sortByNameAZ(orderAZ, testPkm)).toEqual([bulbasaur, charmander, squirtle]);
+    
+  });
+});
+
+describe('Search pokemon in alphabetical order Z-A', () => {
+  it('is a function', () => {
+    expect(typeof sortByNameZA).toBe('function');
+  });
+  
+  it('Sort the pokemon in alphabetical order', () => {
     const orderZA = "z-a"
 
-    expect(sortByAZ(orderAZ, pkm)).toBe([bulbasaur, caterpie, charmander, jigglypuff, nidorina, squirtle ]);
-    expect(sortByAZ(orderZA, pkm)).toBe([squirtle, nidorina, jigglypuff, charmander, caterpie, bulbasaur]);
-});
+    expect(sortByNameZA(orderZA, testPkm)).toEqual([squirtle, charmander, bulbasaur]);
+  });
 });
 
-
-describe('search pokemon by pokedex number', () => {
+describe('search pokemon by pokedex number ascending', () => {
   it('is a function', () => {
-    expect(typeof sortByNum).toBe('function');
+    expect(typeof sortByNumAsc).toBe('function');
   });
   
   it('sort pokemon according to pokedex number', () => {
-    const order09 = "0-9"
-    const order90 = "9-0"
+    const orderAsc = "0-9"
+    
+    expect(sortByNumAsc(orderAsc, testPkm)).toEqual([bulbasaur, charmander, squirtle]);
+    
+  });
+});
 
-    expect(sortByNum(order09, pkm)).toBe([bulbasaur, charmander, squirtle, caterpie, nidorina, jigglypuff ]);
-    expect(sortByAZ(orderZA, pkm)).toBe([jigglypuff, nidorina, caterpie, squirtle, charmander, bulbasaur]);
+
+describe('search pokemon by pokedex number descending', () => {
+  it('is a function', () => {
+    expect(typeof sortByNumDes).toBe('function');
+  });
+  
+  it('sort pokemon according to pokedex number', () => {
+    const orderDes = "9-0"
+    
+    expect(sortByNumDes(orderDes, testPkm)).toEqual([squirtle, charmander, bulbasaur]);
+    
+  });
 });
-});
+
