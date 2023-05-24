@@ -471,7 +471,8 @@ header {
   }
 
   .btn-name, .btn-num, .type-filter  {
-    width: 45vw;
+    width: fit-content;
+    max-width: 200px;
   }
 
  

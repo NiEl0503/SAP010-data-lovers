@@ -12,16 +12,21 @@
 
 <body>
     <header>
-        <figure>
-            <img class="logo" src="PokeData.png" alt="Logo PokeData Go" />
-            <img class="logo" src="Go.png" alt="Logo PokeData Go" />
+        <figure id="imagen">
+          <img class="logo1" src="PokeData.png" alt="Logo PokeData Go" />
+          <img class="logo2" src="Go.png" alt="Logo PokeData Go" />
         </figure>
         <div class="nav1">
-        <button onclick="location.href='index.html'" class="navBtn1">Homepage</button>
-        <button onclick="location.href='page1.html'" class="navBtn2">Filter</button>
-    </div>
-    </header>
-    <marquee behavior="alternate"><p class="prompt">Select two pokémon to compare their stats:</p></marquee>
+          <button onclick="location.href='index.html'" class="btn1">
+            Homepage
+          </button>
+          <button onclick="location.href='page1.html'" class="btn1">
+            Pokémon
+          </button>
+        </div>
+      </header>
+
+    <p class="prompt">Select two pokémon to compare their stats:</p></marquee>
     <div class="pokemonSelection">
         <form id="firstPokeForm" action="javascript:void(0)">
             <input id="pokeNameInputFirst" type="text" placeholder="First Pokémon">
@@ -32,6 +37,7 @@
             <input id="confirm" type="submit" value="Confirm">
         </form>
     </div>
+    
     <main class="card-containers">
 
         <section id="pokémon-card-one-container"></section>
@@ -45,8 +51,8 @@
     </footer>
 </body>
 
- nova
-</html>
 
 </html>
-main
+
+
+
