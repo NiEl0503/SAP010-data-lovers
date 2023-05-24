@@ -21,7 +21,6 @@ function updatePokemonList(filteredPokemons) {
     pokemon.type.forEach((type) => {
       typePkm += `<p class="type-style ${type}">${type}</p>`
     });
-    card.classList.add("card-pokemon")
     card.innerHTML = `
       <div class="pokemon">
         <p class="pokemon-numero">${pokemon.num}</p>
@@ -36,7 +35,6 @@ function updatePokemonList(filteredPokemons) {
         </div>
       </div>
     `;
-
 
     pkmCards.appendChild(card);
   });
@@ -88,28 +86,3 @@ searchNameInput.addEventListener("input", () =>{
 })
 
 
-function statisticPokemon(pkmnDataList){
-  allPokemon.innerHTML = "";
-  for (let i=0; i < pkmnDataList.length; i++){
-    const calculePkm = percentagePkm.find((typeFilter) => {
-      return typeFilter.type === pkmnDataList[i].type[0]
-    })
-    allPokemon.appendChild(card)
-  }
-  console.log(calculePkm)
-
-const statisticText = document.querySelector(".statistic");
-const amountPokemon = pkmCards.querySelectorAll(".card-pokemon").length
-const percentPokemons = amountPokemon / pkmnDataList.length * 100
-const totalPercent = percentPokemons.toFixed(2)
-  
-statisticText.innerText = ` ${amountPokemon} types of pokemons were found, equals ${totalPercent}%`
-
-}
-renderPokemon(pkmnDataList);
-
-function calculaPorcentajes(type){
-	document.querySelector(".statistic").value=Math.floor(numero*60)/100;
-	
-
-}

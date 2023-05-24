@@ -100,3 +100,4 @@ export const searchByName = (name, pokemones = data.pokemon) => {
   return filteredByName
 
 };
+
