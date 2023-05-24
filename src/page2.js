@@ -9,18 +9,18 @@ const firstPokemonForm = document.getElementById("firstPokeForm")
 
 
 firstPokemonForm.addEventListener("submit", (event) => { //event listener de submit no form
-    event.preventDefault();           //prevent default para não tentar enviar
-    //console.log("teste")
-    const firstSelectedPokemon = document.getElementById("pokeNameInputFirst").value.toLowerCase()    //pega o valor do input do nome do pokemon digitado
-    //console.log(firstSelectedPokemon) 
-    const firstSearchedPoke = pokemonDataList.find(pokemon => pokemon.name === firstSelectedPokemon) //usa o método find para percorrer o objeto e achar um pokémon com o nome
+  event.preventDefault();           //prevent default para não tentar enviar
+  //console.log("teste")
+  const firstSelectedPokemon = document.getElementById("pokeNameInputFirst").value.toLowerCase()    //pega o valor do input do nome do pokemon digitado
+  //console.log(firstSelectedPokemon) 
+  const firstSearchedPoke = pokemonDataList.find(pokemon => pokemon.name === firstSelectedPokemon) //usa o método find para percorrer o objeto e achar um pokémon com o nome
     
    
    
-    if (firstSearchedPoke) {           //como if usa lógica booleana, dá para escrever assim, é como se fosse if firstSearchedPoke == true
+  if (firstSearchedPoke) {           //como if usa lógica booleana, dá para escrever assim, é como se fosse if firstSearchedPoke == true
         
-        const pokemonCardOne = document.querySelector("#pokémon-card-one-container")
-        pokemonCardOne.innerHTML = `
+    const pokemonCardOne = document.querySelector("#pokémon-card-one-container")
+    pokemonCardOne.innerHTML = `
         
                    
         <div class="pokémon-card" id="pokemon-card-one">
@@ -40,9 +40,9 @@ firstPokemonForm.addEventListener("submit", (event) => { //event listener de sub
         `
         
         
-    } else {
-        alert("Please, insert a valid pokémon name")
-    }
+  } else {
+    alert("Please, insert a valid pokémon name")
+  }
 
 
 
@@ -57,18 +57,18 @@ firstPokemonForm.addEventListener("submit", (event) => { //event listener de sub
 const secondPokemonForm = document.getElementById("secondPokeForm")
 
 secondPokemonForm.addEventListener("submit", (event) => { 
-    event.preventDefault();           
+  event.preventDefault();           
     
-    const secondSelectedPokemon = document.getElementById("pokeNameInputSecond").value.toLowerCase()    
-    console.log(secondSelectedPokemon) 
-    const secondSearchedPoke = pokemonDataList.find(pokemon => pokemon.name === secondSelectedPokemon) 
+  const secondSelectedPokemon = document.getElementById("pokeNameInputSecond").value.toLowerCase()    
+  //console.log(secondSelectedPokemon) 
+  const secondSearchedPoke = pokemonDataList.find(pokemon => pokemon.name === secondSelectedPokemon) 
     
    
    
-    if (secondSearchedPoke) {          
-        // console.log("teste")
-        const pokemonCardTwo = document.querySelector("#pokémon-card-two-container")
-        pokemonCardTwo.innerHTML = `
+  if (secondSearchedPoke) {          
+    // console.log("teste")
+    const pokemonCardTwo = document.querySelector("#pokémon-card-two-container")
+    pokemonCardTwo.innerHTML = `
         
         
                    
@@ -89,9 +89,9 @@ secondPokemonForm.addEventListener("submit", (event) => {
         `
         
         
-    } else {
-        alert("Please, insert a valid pokémon name")
-    }
+  } else {
+    alert("Please, insert a valid pokémon name")
+  }
 
 
 })

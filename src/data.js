@@ -2,8 +2,8 @@
 import data from "./data/pokemon/pokemon.js";
 
 //primeira função: ordernar em ordem alfabética
-export const sortByNameAZ = () => {
-  const sortedPokemonsByName = [...data.pokemon].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
+export const sortByNameAZ = (sort, pokemones = data.pokemon) => {
+  const sortedPokemonsByName = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const nameA = a.name.toLowerCase(); //toLowerCase para não diferenciar maiúsculas e minúsculas
     const nameB = b.name.toLowerCase();
 
@@ -16,12 +16,12 @@ export const sortByNameAZ = () => {
     return 0;
   });
 
-return sortedPokemonsByName
+  return sortedPokemonsByName
 
 }
 // ordenar de z-a (mesma coisa do a-z, só troca o sinal)
-export const sortByNameZA = () => {
-  const sortedPokemonsByName = [...data.pokemon].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
+export const sortByNameZA = (sort, pokemones = data.pokemon) => {
+  const sortedPokemonsByName = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const nameA = a.name.toLowerCase(); //toLowerCase para não diferenciar maiúsculas e minúsculas
     const nameB = b.name.toLowerCase();
 
@@ -34,15 +34,15 @@ export const sortByNameZA = () => {
     return 0;
   });
 
-return sortedPokemonsByName
+  return sortedPokemonsByName
 
 
 
 }
 
 // Segunda função, ordenar pelo número da pokédex (mesma lógica da anterior, só muda o parâmetro de name pra num)
-export const sortByNumAsc = () => {
-  const sortedPokemonsByNum = [...data.pokemon].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
+export const sortByNumAsc = (sort, pokemones = data.pokemon) => {
+  const sortedPokemonsByNum = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const numA = a.num
     const numB = b.num
 
@@ -55,12 +55,12 @@ export const sortByNumAsc = () => {
     return 0;
   });
 
- return sortedPokemonsByNum
+  return sortedPokemonsByNum
 
 }
 //decrescente
-export const sortByNumDes = () => {
-  const sortedPokemonsByNum = [...data.pokemon].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
+export const sortByNumDes = (sort, pokemones = data.pokemon) => {
+  const sortedPokemonsByNum = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const numA = a.num
     const numB = b.num
 
@@ -73,26 +73,26 @@ export const sortByNumDes = () => {
     return 0;
   });
 
- return sortedPokemonsByNum
+  return sortedPokemonsByNum
 
 }
 
 //terceira função: Filtrar por tipo
 
-export const filterByType = (typeInput) => {
-  const filteredPokemons = data.pokemon.filter((pokemon) => {
+export const filterByType = (typeInput, pokemones = data.pokemon) => {
+  const filteredPokemons = pokemones.filter((pokemon) => {
     return pokemon.type.includes(typeInput)
   })
-    return filteredPokemons;
-  }
+  return filteredPokemons;
+}
 //console.log(filterByType)
   
 
-//quarta função, procurar por nome
+//quarta função, procurar por nome*/
 
 
-export const searchByName = (name) => {
-  const filteredByName = data.pokemon.filter((pokemon) => {
+export const searchByName = (name, pokemones = data.pokemon) => {
+  const filteredByName = pokemones.filter((pokemon) => {
     return pokemon.name.includes(name)
 
   })
