@@ -80,10 +80,9 @@ CSS/HTML/JS para estilização, marcação de texto e linguagem de programação
 
 ## 7. Desenvolvedoras
 
-
-Cristina Costa <a href="https://github.com/CristynaBC">  
+<a href="https://github.com/CristynaBC">Cristina Costa</a>
 <br>
-Ninoska Contreras <a href="https://github.com/NiEl0503">
+<a href="https://github.com/NiEl0503">Ninoska Contreras</a>
 
 
 
