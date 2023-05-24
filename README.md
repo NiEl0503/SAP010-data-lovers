@@ -78,7 +78,7 @@ CSS/HTML/JS para estilização, marcação de texto e linguagem de programação
 
 
 
-## 7. Desenvolvedoras
+## 7. Desenvolvedoras 💕
 
 <a href="https://github.com/CristynaBC">Cristina Costa</a>
 <br>
