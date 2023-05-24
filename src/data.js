@@ -1,12 +1,14 @@
 import data from "./data/pokemon/pokemon.js";
 
+
 //primeira função: ordernar em ordem alfabética
 export const sortByNameAZ = (value, pokemones = data.pokemon) => {
   const sortedPokemonsByName = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const nameA = a.name.toLowerCase(); //toLowerCase para não diferenciar maiúsculas e minúsculas
+
     const nameB = b.name.toLowerCase();
 
-    if (nameA < nameB) {  //esse if compara de "dois em dois" e atribui um valor para determinar a posição no ranking
+    if (nameA < nameB) {  
       return -1;
     }
     /*if (nameA > nameB) {
@@ -18,13 +20,15 @@ export const sortByNameAZ = (value, pokemones = data.pokemon) => {
   return sortedPokemonsByName
 
 }
+
 // ordenar de z-a (mesma coisa do a-z, só troca o sinal)
 export const sortByNameZA = (value, pokemones = data.pokemon) => {
   const sortedPokemonsByName = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const nameA = a.name.toLowerCase(); //toLowerCase para não diferenciar maiúsculas e minúsculas
+
     const nameB = b.name.toLowerCase();
 
-    if (nameA > nameB) {  //esse if compara de "dois em dois" e atribui um valor para determinar a posição no ranking
+    if (nameA > nameB) {  
       return -1;
     }
     /*if (nameA < nameB) {
@@ -39,13 +43,15 @@ export const sortByNameZA = (value, pokemones = data.pokemon) => {
 
 }
 
+
 // Segunda função, ordenar pelo número da pokédex (mesma lógica da anterior, só muda o parâmetro de name pra num)
 export const sortByNumAsc = (value,pokemones = data.pokemon) => {
   const sortedPokemonsByNum = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
+
     const numA = a.num
     const numB = b.num
 
-    if (numA < numB) {  //esse if compara de "dois em dois" e atribui um valor para determinar a posição no ranking
+    if (numA < numB) {  
       return -1;
     }
     /*if (numA > numB) {
@@ -57,13 +63,15 @@ export const sortByNumAsc = (value,pokemones = data.pokemon) => {
   return sortedPokemonsByNum
 }
 
+=
 //decrescente
 export const sortByNumDes = (value,pokemones = data.pokemon) => {
   const sortedPokemonsByNum = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
+
     const numA = a.num
     const numB = b.num
 
-    if (numA > numB) {  //esse if compara de "dois em dois" e atribui um valor para determinar a posição no ranking
+    if (numA > numB) { 
       return -1;
     }
     /*if (numA < numB) {
@@ -77,7 +85,9 @@ export const sortByNumDes = (value,pokemones = data.pokemon) => {
 }
 
 
+
 //terceira função: Filtrar por tipo
+
 
 export const filterByType = (typeInput, pokemones = data.pokemon) => {
   const filteredPokemons = pokemones.filter((pokemon) => {
@@ -86,7 +96,9 @@ export const filterByType = (typeInput, pokemones = data.pokemon) => {
   return filteredPokemons;
 }
 
+
 //quarta função, procurar por nome
+
 
 
 export const searchByName = (name, pokemones = data.pokemon) => {
@@ -97,5 +109,7 @@ export const searchByName = (name, pokemones = data.pokemon) => {
 
   return filteredByName
 
+
 };
+
 
