@@ -2,6 +2,7 @@ import { searchByName, filterByType, sortByNameAZ, sortByNameZA, sortByNumAsc, s
 
 
 const bulbasaur = {
+  "num": "001",
   name: "bulbasaur",
   type: [
     "grass",
@@ -10,6 +11,7 @@ const bulbasaur = {
 }
 
 const charmander = {
+  "num": "004",
   name: "charmander",
   type: [
     "fire"
@@ -17,6 +19,7 @@ const charmander = {
 }
 
 const squirtle = {
+  "num": "007",
   name: "squirtle",
   type: [
     "water"
