@@ -85,10 +85,8 @@ export const filterByType = (typeInput, pokemones = data.pokemon) => {
   })
   return filteredPokemons;
 }
-//console.log(filterByType)
-  
 
-//quarta função, procurar por nome*/
+//quarta função, procurar por nome
 
 
 export const searchByName = (name, pokemones = data.pokemon) => {
