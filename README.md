@@ -1,8 +1,7 @@
 # Data Lovers - PokéData Go 
 
+https://cristynabc.github.io/SAP010-data-lovers/ 😊
 
-<img src="PokeData.png" alt="">
-<img src="Go.png" alt="">
 
 ## Índice
 
@@ -21,6 +20,7 @@
 Neste segundo projeto de Laboratoria, achamos interessante trabalhar com dados de Pokémon e criar uma página web chamada PokéData Go, que permite ao usuário, pesquisar sobre os dados mais relevantes de seus personagens.
 
 
+
 ## 2. Definição de produto 📝
 
 
@@ -29,19 +29,23 @@ Com o PokéData Go, criamos cartões que exibem dados do pokémon para que o usu
 
 
 ## 3. Histórias de usuário 🙋‍♀️🙋‍♂️🙋‍♀️
-
-     * Usuária Clara Quijada 
+<ul>
+     <li> Usuária Clara Quijada 
 Idade: 30 anos <br>
-Como jogadora de pokémon go, quero que os personagens apareçam filtrados por tipo, porque agora tenho que ir procurá-los para poder selecioná-los.
+Como jogadora de pokémon go, quero que os personagens apareçam filtrados por tipo, porque agora tenho que ir procurá-los para poder selecioná-los</li>
+<br>
 
-
-     * Usuário  Paulo Crocomo 
+    <li> Usuário  Paulo Crocomo 
 Idade: 36 anos <br>
-Como um jogador avançado de Pokémon Go, gostaria de poder filtrar os pokémon por tipos de ataques para compará-los e definir as melhores combinações de ataques.
+Como um jogador avançado de Pokémon Go, gostaria de poder filtrar os pokémon por tipos de ataques para compará-los e definir as melhores combinações de ataques</li>
+<br>
 
-
-    * Usuária Josefina Perez 
+     <li> Usuária Josefina Perez 
 Idade: 52 anos <br>
+Não conheço pokemon go, mas gostaria de começar a jogar e seria ótimo saber quais são seus nomes, seria ideal se fossem organizados em ordem alfabética</li>
+</ul>
+
+
 
 ## 4. Desenho de interface do usuário
 
@@ -70,14 +74,15 @@ GitHubPages para hospedagem de site estático .
 
 GitHub para armazenar o repositório do projeto.
 
-CSS/HTML/JS para estilização, marcação de texto e linguagem de programação, respectivamente.
+CSS/HTML/JS para estilização, marcação de texto e linguagem de programação.
 
 
 
 ## 7. Desenvolvedoras
 
 
-Cristina Costa <a href="https://github.com/CristynaBC">
+Cristina Costa <a href="https://github.com/CristynaBC">  
+<br>
 Ninoska Contreras <a href="https://github.com/NiEl0503">
 
 
