@@ -33,13 +33,13 @@ Com o PokéData Go, criamos cartões que exibem dados do pokémon para que o usu
      <li> Usuária Clara Quijada 
 Idade: 30 anos <br>
 Como jogadora de pokémon go, quero que os personagens apareçam filtrados por tipo, porque agora tenho que ir procurá-los para poder selecioná-los</li>
-<br>
-
+<br></ul>
+<ul>
     <li> Usuário  Paulo Crocomo 
 Idade: 36 anos <br>
-Como um jogador avançado de Pokémon Go, gostaria de poder filtrar os pokémon por tipos de ataques para compará-los e definir as melhores combinações de ataques</li>
+Como um jogador avançado de Pokémon Go, gostaria de poder filtrar os pokémon por tipos de ataques para compará-los e definir as melhores combinações de ataques</li></ul>
 <br>
-
+<ul>
      <li> Usuária Josefina Perez 
 Idade: 52 anos <br>
 Não conheço pokemon go, mas gostaria de começar a jogar e seria ótimo saber quais são seus nomes, seria ideal se fossem organizados em ordem alfabética</li>
