@@ -1,6 +1,5 @@
 import { searchByName, filterByType, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes} from '../src/data.js';
 
-
 const bulbasaur = {
   "num": "001",
   name: "bulbasaur",
@@ -117,6 +116,8 @@ describe('search pokemon by pokedex number descending', () => {
   it('sort pokemon according to pokedex number', () => {
     const orderDes = "9-0"
     
+
+
     expect(sortByNumDes(orderDes, testPkm)).toEqual([squirtle, charmander, bulbasaur]);
     
   });
