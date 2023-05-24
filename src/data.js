@@ -1,7 +1,7 @@
 import data from "./data/pokemon/pokemon.js";
 
 //primeira função: ordernar em ordem alfabética
-export const sortByNameAZ = (sort, pokemones = data.pokemon) => {
+export const sortByNameAZ = (value, pokemones = data.pokemon) => {
   const sortedPokemonsByName = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const nameA = a.name.toLowerCase(); //toLowerCase para não diferenciar maiúsculas e minúsculas
     const nameB = b.name.toLowerCase();
@@ -19,7 +19,7 @@ export const sortByNameAZ = (sort, pokemones = data.pokemon) => {
 
 }
 // ordenar de z-a (mesma coisa do a-z, só troca o sinal)
-export const sortByNameZA = (sort, pokemones = data.pokemon) => {
+export const sortByNameZA = (value, pokemones = data.pokemon) => {
   const sortedPokemonsByName = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const nameA = a.name.toLowerCase(); //toLowerCase para não diferenciar maiúsculas e minúsculas
     const nameB = b.name.toLowerCase();
@@ -40,7 +40,7 @@ export const sortByNameZA = (sort, pokemones = data.pokemon) => {
 }
 
 // Segunda função, ordenar pelo número da pokédex (mesma lógica da anterior, só muda o parâmetro de name pra num)
-export const sortByNumAsc = (sort, pokemones = data.pokemon) => {
+export const sortByNumAsc = (value, pokemones = data.pokemon) => {
   const sortedPokemonsByNum = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const numA = a.num
     const numB = b.num
@@ -58,7 +58,7 @@ export const sortByNumAsc = (sort, pokemones = data.pokemon) => {
 
 }
 //decrescente
-export const sortByNumDes = (sort, pokemones = data.pokemon) => {
+export const sortByNumDes = (value, pokemones = data.pokemon) => {
   const sortedPokemonsByNum = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
     const numA = a.num
     const numB = b.num
@@ -99,3 +99,4 @@ export const searchByName = (name, pokemones = data.pokemon) => {
   return filteredByName
 
 }
+
