@@ -99,7 +99,12 @@ header {
   color: white;
 }
 
+.statistic{
 
+  margin-top: 1em;
+  color: #6890f0 ;
+  text-align: center;
+}
 
 .btn-name {
   width: 20vw;
@@ -452,6 +457,7 @@ header {
     grid-template-columns: 200px 200px;
    
   } 
+  
 
 }
 

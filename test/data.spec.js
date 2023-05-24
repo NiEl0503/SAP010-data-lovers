@@ -1,8 +1,7 @@
-
 import { searchByName, filterByType, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes} from '../src/data.js';
 
-
 const bulbasaur = {
+  "num": "001",
   name: "bulbasaur",
   type: [
     "grass",
@@ -11,6 +10,7 @@ const bulbasaur = {
 }
 
 const charmander = {
+  "num": "004",
   name: "charmander",
   type: [
     "fire"
@@ -18,6 +18,7 @@ const charmander = {
 }
 
 const squirtle = {
+  "num": "007",
   name: "squirtle",
   type: [
     "water"
@@ -115,8 +116,9 @@ describe('search pokemon by pokedex number descending', () => {
   it('sort pokemon according to pokedex number', () => {
     const orderDes = "9-0"
     
+
+
     expect(sortByNumDes(orderDes, testPkm)).toEqual([squirtle, charmander, bulbasaur]);
     
   });
 });
-
