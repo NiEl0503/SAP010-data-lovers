@@ -86,9 +86,4 @@ searchNameInput.addEventListener("input", () =>{
 
 })
 
-/*const statisticText = document.querySelector(".statistic");
-const amountPokemon = pkmCards.querySelectorAll(".card").length
-  const percentPokemons = amountPokemon / data.pokemon.length * 100
-  const totalPercent = percentPokemons.toFixed(1)
-  
-  statisticText.innerText = `Foram encontrados ${amountPokemon} tipos de pokemons, equivale a ${totalPercent}%`*/
+

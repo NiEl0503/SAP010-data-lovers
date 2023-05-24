@@ -76,10 +76,10 @@ describe('Search pokemon in alphabetical order A-Z', () => {
   
   it('Sort the pokemon in alphabetical order', () => {
     const orderAZ = "a-z"
-    
+   
 
     expect(sortByNameAZ(orderAZ, testPkm)).toEqual([bulbasaur, charmander, squirtle]);
-    
+   
   });
 });
 
@@ -103,8 +103,8 @@ describe('search pokemon by pokedex number ascending', () => {
   it('sort pokemon according to pokedex number', () => {
     const orderAsc = "0-9"
     
-    expect(sortByNumAsc(orderAsc, testPkm)).toEqual([bulbasaur, charmander, squirtle]);
     
+    expect(sortByNumAsc(orderAsc, testPkm)).toEqual([bulbasaur, charmander, squirtle]);
   });
 });
 
