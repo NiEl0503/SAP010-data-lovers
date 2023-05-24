@@ -26,6 +26,7 @@ Neste segundo projeto de Laboratoria, achamos interessante trabalhar com dados d
 Com o PokéData Go, criamos cartões que exibem dados do pokémon para que o usuário possa navegar rapidamente e capturar as informações necessárias sobre seu pokémon favorito.
 
 
+
 ## 3. Histórias de usuário 🙋‍♀️🙋‍♂️🙋‍♀️
 <ul>
      <li> Usuária Clara Quijada 
@@ -43,6 +44,7 @@ Idade: 52 anos <br>
 Não conheço pokemon go, mas gostaria de começar a jogar e seria ótimo saber quais são seus nomes, seria ideal se fossem organizados em ordem alfabética</li>
 
 </ul>
+
 
 ## 4. Desenho de interface do usuário
 
@@ -70,7 +72,7 @@ GitHubPages para hospedagem de site estático .
 
 GitHub para armazenar o repositório do projeto.
 
-CSS/HTML/JS para estilização, marcação de texto e linguagem de programação, respectivamente.
+CSS/HTML/JS para estilização, marcação de texto e linguagem de programação.
 
 
 ## 7. Desenvolvedoras
