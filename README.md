@@ -1,7 +1,6 @@
 # Data Lovers - PokéData Go 
 
-<img src="PokeData.png" alt="logo Pokedata">
-<img src="Go.png" alt="logo PokeData">
+<img src="PokeData.png" alt="logo Pokedata"> <img src="Go.png" alt="logo PokeData">
 
 
 https://cristynabc.github.io/SAP010-data-lovers/ 😊
