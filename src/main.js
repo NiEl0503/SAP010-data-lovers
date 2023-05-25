@@ -1,10 +1,10 @@
-import { filterByType, searchByName, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes  } from "./data.js";
+import { filterByType, searchByName, sortByNameAZ, sortByNameZA, sortByNumDes, sortByNumAsc } from "./data.js";
 import data from "./data/pokemon/pokemon.js";
 
 const pkmnDataList = data.pokemon; //pega o banco de dados
 const pkmCards = document.getElementById("pokemonList"); //pega o espaço onde os cards serão cridos
 
-updatePokemonList(pkmnDataList); 
+updatePokemonList(pkmnDataList);
 
 
 
@@ -53,7 +53,7 @@ typeInput.addEventListener("change", () => {
 //função de ordenar em ordem alfabética
 const sortNameInput = document.getElementById("sortName")
 sortNameInput.addEventListener("change", () => {
-  if  (sortNameInput.value === "A-Z") {
+  if (sortNameInput.value === "A-Z") {
     const orderedByNamePokemons = sortByNameAZ()
     return updatePokemonList(orderedByNamePokemons)
   } else if (sortNameInput.value === "Z-A") {
@@ -61,8 +61,8 @@ sortNameInput.addEventListener("change", () => {
     return updatePokemonList(orderedByNamePokemons)
 
   }
-  
-})
+
+});
 
 //ordenar por número
 const sortNumInput = document.getElementById("sortNum")
@@ -78,7 +78,7 @@ sortNumInput.addEventListener("change", () => {
 
 //procurar por nome
 const searchNameInput = document.getElementById("searchByName")
-searchNameInput.addEventListener("input", () =>{
+searchNameInput.addEventListener("input", () => {
   const nameInput = searchNameInput.value.toLowerCase()
   const filteredPokemons = searchByName(nameInput)
   updatePokemonList(filteredPokemons)
