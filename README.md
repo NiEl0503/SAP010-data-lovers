@@ -1,7 +1,6 @@
 # Data Lovers - PokéData Go 
 
 https://cristynabc.github.io/SAP010-data-lovers/ 😊
-https://cristynabc.github.io/SAP010-data-lovers/ 😊
 
 
 ## Índice
@@ -14,11 +13,12 @@ https://cristynabc.github.io/SAP010-data-lovers/ 😊
 * [6. Tecnologias utilizadas](#6-Tecnologias-utilizadas)
 * [7. Desenvolvedoras](#7-Desenvolvedoras)
 
-***
+
 
 ## 1. Resumo do Projeto 👨‍💻
 
 Neste segundo projeto de Laboratoria, achamos interessante trabalhar com dados de Pokémon e criar uma página web chamada PokéData Go, que permite ao usuário, pesquisar sobre os dados mais relevantes de seus personagens.
+
 
 
 ## 2. Definição de produto 📝
@@ -30,7 +30,7 @@ Com o PokéData Go, criamos cartões que exibem dados do pokémon para que o usu
 ## 3. Histórias de usuário 🙋‍♀️🙋‍♂️🙋‍♀️
 
      * Usuária Clara Quijada 
-Idade: 30 anos <br>
+Idade: 32 anos <br>
 Como jogadora de pokémon go, quero que os personagens apareçam filtrados por tipo, porque agora tenho que ir procurá-los para poder selecioná-los.
 
 
@@ -42,6 +42,7 @@ Como um jogador avançado de Pokémon Go, gostaria de poder filtrar os pokémon 
     * Usuária Josefina Perez 
 Idade: 52 anos <br>
 
+
 ## 4. Desenho de interface do usuário
 
 A princípio tínhamos a ideia de que os botões das nossas páginas ficariam do lado esquerdo, mas quando começamos a fazer as páginas gostamos de como ficavam no topo dos cartões, por isso mudamos de ideia e a ideia original não foi seguida 100%, porém estamos satisfeitas e muito felizes com os resultados obtidos.
@@ -51,9 +52,11 @@ A princípio tínhamos a ideia de que os botões das nossas páginas ficariam do
 <img src="bajafid2.png" alt="prototipo caneta e lápis">
 
 
+
   * 4.2. Protótipo de alta fidelidade
 <img src="altfideli.png" alt="prototipo em figma">
 <img src="altfid2.png" alt="prototipo em figma">
+
 
 
 
@@ -73,10 +76,7 @@ CSS/HTML/JS para estilização, marcação de texto e linguagem de programação
 
 ## 7. Desenvolvedoras 💕
 
-## 7. Desenvolvedoras
-
-
-Cristina Costa <a href="https://github.com/CristynaBC">
-Ninoska Contreras <a href="https://github.com/NiEl0503">
+<strong>Cristina Costa</strong> <a href="https://github.com/CristynaBC">Github</a> | <a href="https://www.linkedin.com/in/cristyna-becker-costa-a36477178/">Linkedin</a>
+<strong>Ninoska Contreras</strong> <a href="https://github.com/NiEl0503">Github</a> | <a href="https://www.linkedin.com/in/ninoska-contreras-86b075129/">Linkedin</a>
 
 
