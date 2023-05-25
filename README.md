@@ -3,7 +3,7 @@
 <img src="logo.png" alt="logo Pokedata"> 
 
 
-https://cristynabc.github.io/SAP010-data-lovers/ 😊
+                   https://cristynabc.github.io/SAP010-data-lovers/ 😊
 
 
 ## Índice
