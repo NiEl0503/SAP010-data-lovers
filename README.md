@@ -31,7 +31,7 @@ Com o PokéData Go, criamos cartões que exibem dados do pokémon para que o usu
 ## 3. Histórias de usuário 🙋‍♀️🙋‍♂️🙋‍♀️
 <ul>
      <li> Usuária Clara Quijada 
-Idade: 30 anos <br>
+Idade: 32 anos <br>
 Como jogadora de pokémon go, quero que os personagens apareçam filtrados por tipo, porque agora tenho que ir procurá-los para poder selecioná-los</li>
 <br></ul>
 <ul>
@@ -54,7 +54,7 @@ A princípio tínhamos a ideia de que os botões das nossas páginas ficariam do
 
    * 4.1. Protótipo de baixa fidelidade
 
-
+<img src ="bajafid2.png" alt=""></img>
 
 
   * 4.2. Protótipo de alta fidelidade
