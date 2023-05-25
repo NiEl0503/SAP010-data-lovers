@@ -11,10 +11,10 @@ export const sortByNameAZ = (value, pokemones = data.pokemon) => {
     if (nameA < nameB) {  
       return -1;
     }
-    /*if (nameA > nameB) {
+    if (nameA > nameB) {
       return 1;
     }
-    return 0;*/
+    return 0;
   });
 
   return sortedPokemonsByName
@@ -31,16 +31,13 @@ export const sortByNameZA = (value, pokemones = data.pokemon) => {
     if (nameA > nameB) {  
       return -1;
     }
-    /*if (nameA < nameB) {
+    if (nameA < nameB) {
       return 1;
     }
-    return 0;*/
+    return 0;
   });
 
   return sortedPokemonsByName
-
-
-
 }
 
 
@@ -51,19 +48,19 @@ export const sortByNumAsc = (value,pokemones = data.pokemon) => {
     const numA = a.num
     const numB = b.num
 
-    if (numA < numB) {  
+    if (numA < numB) { 
       return -1;
     }
-    /*if (numA > numB) {
+    if (numA > numB) {
       return 1;
     }
-    return 0;*/
+    return 0;
   });
 
   return sortedPokemonsByNum
+
 }
 
-=
 //decrescente
 export const sortByNumDes = (value,pokemones = data.pokemon) => {
   const sortedPokemonsByNum = [...pokemones].sort((a, b) => { // spread operator para não modificar a array, a e b representam os dois "pokémons" que estão sendo ordenados
@@ -74,10 +71,10 @@ export const sortByNumDes = (value,pokemones = data.pokemon) => {
     if (numA > numB) { 
       return -1;
     }
-    /*if (numA < numB) {
+    if (numA < numB) {
       return 1;
     }
-    return 0;*/
+    return 0;
   });
 
   return sortedPokemonsByNum
@@ -109,7 +106,4 @@ export const searchByName = (name, pokemones = data.pokemon) => {
 
   return filteredByName
 
-
-};
-
-
+}

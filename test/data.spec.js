@@ -1,4 +1,4 @@
-import { searchByName, filterByType, sortByNameAZ, sortByNameZA, sortByNumAsc, sortByNumDes} from '../src/data.js';
+import { searchByName, filterByType, sortByNameAZ, sortByNameZA, sortByNumDes, sortByNumAsc} from '../src/data.js';
 
 const bulbasaur = {
   "num": "001",
@@ -24,7 +24,7 @@ const squirtle = {
     "water"
   ]
 }
-const testPkm = [bulbasaur, charmander, squirtle]
+const testPkm = [charmander, squirtle, bulbasaur, squirtle]
 
 
 describe('Search pokemon by name', () => {
@@ -40,7 +40,7 @@ describe('Search pokemon by name', () => {
 
 
     expect(searchByName(inputValue1, testPkm)).toEqual([bulbasaur]);
-    expect(searchByName(inputValue2, testPkm)).toEqual([squirtle]);
+    expect(searchByName(inputValue2, testPkm)).toEqual([squirtle,squirtle]);
     expect(searchByName(inputValue3, testPkm)).toEqual([charmander]);
     expect(searchByName(inputValue4, testPkm)).toEqual(testPkm);
 
@@ -60,8 +60,8 @@ describe('Search pokemon by type', () => {
 
 
 
-
-    expect(filterByType(inputType2, testPkm)).toEqual([squirtle]);
+   
+    expect(filterByType(inputType2, testPkm)).toEqual([squirtle,squirtle]);
     expect(filterByType(inputType3, testPkm)).toEqual([charmander]);
     expect(filterByType(inputType4, testPkm)).toEqual([bulbasaur]);
   });
@@ -77,7 +77,7 @@ describe('Search pokemon in alphabetical order A-Z', () => {
     const orderAZ = "a-z"
    
 
-    expect(sortByNameAZ(orderAZ, testPkm)).toEqual([bulbasaur, charmander, squirtle]);
+    expect(sortByNameAZ(orderAZ, testPkm)).toEqual([bulbasaur, charmander, squirtle, squirtle]);
    
   });
 });
@@ -90,7 +90,7 @@ describe('Search pokemon in alphabetical order Z-A', () => {
   it('Sort the pokemon in alphabetical order', () => {
     const orderZA = "z-a"
 
-    expect(sortByNameZA(orderZA, testPkm)).toEqual([squirtle, charmander, bulbasaur]);
+    expect(sortByNameZA(orderZA, testPkm)).toEqual([squirtle, squirtle, charmander, bulbasaur]);
   });
 });
 
@@ -103,7 +103,7 @@ describe('search pokemon by pokedex number ascending', () => {
     const orderAsc = "0-9"
     
     
-    expect(sortByNumAsc(orderAsc, testPkm)).toEqual([bulbasaur, charmander, squirtle]);
+    expect(sortByNumAsc(orderAsc, testPkm)).toEqual([bulbasaur, charmander, squirtle, squirtle]);
   });
 });
 
@@ -118,7 +118,7 @@ describe('search pokemon by pokedex number descending', () => {
     
 
 
-    expect(sortByNumDes(orderDes, testPkm)).toEqual([squirtle, charmander, bulbasaur]);
+    expect(sortByNumDes(orderDes, testPkm)).toEqual([squirtle, squirtle, charmander, bulbasaur]);
     
   });
 });
