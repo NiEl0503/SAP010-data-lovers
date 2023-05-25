@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="page1.css" />
     <title>PokéData Go</title>
-
+    <script src = "Chart.js"></script>
   </head>
 
   <body>
@@ -52,7 +52,7 @@
                   <option class="options" value="9-0">Descending</option>
                 </select>
               
-
+                <div id="typePercentageCard" class="type-percentage-card"></div>
                 <select id="typeFilter" class="type-filter">
                   <option
                     value="typeTitle"
@@ -87,8 +87,8 @@
           </section>
         </div>
 
-        <!--  <h2 class="statistic">Foram encontrados 251 tipos de pokemons, equivale a 100.0%</h2>-->
-
+       
+        
           <div class="allPokemon" id="pokemonList"></div>
         
       </main>

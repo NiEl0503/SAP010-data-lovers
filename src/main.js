@@ -36,7 +36,6 @@ function updatePokemonList(filteredPokemons) {
       </div>
     `;
 
-
     pkmCards.appendChild(card);
   });
 }
