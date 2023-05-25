@@ -1,5 +1,9 @@
 # Data Lovers - PokéData Go 
 
+<img src="PokeData.png" alt="logo Pokedata">
+<img src="Go.png" alt="logo PokeData">
+
+
 https://cristynabc.github.io/SAP010-data-lovers/ 😊
 
 
@@ -76,7 +80,7 @@ CSS/HTML/JS para estilização, marcação de texto e linguagem de programação
 
 ## 7. Desenvolvedoras 💕
 
-<strong>Cristina Costa</strong> <a href="https://github.com/CristynaBC">Github</a> | <a href="https://www.linkedin.com/in/cristyna-becker-costa-a36477178/">Linkedin</a>
+<strong>Cristina Costa</strong> <a href="https://github.com/CristynaBC">Github</a> | <a href="https://www.linkedin.com/in/cristyna-becker-costa-a36477178/">Linkedin</a> <br>
 <strong>Ninoska Contreras</strong> <a href="https://github.com/NiEl0503">Github</a> | <a href="https://www.linkedin.com/in/ninoska-contreras-86b075129/">Linkedin</a>
 
 
