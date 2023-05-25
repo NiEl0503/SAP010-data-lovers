@@ -1,6 +1,7 @@
 # Data Lovers - PokéData Go 
 
 https://cristynabc.github.io/SAP010-data-lovers/ 😊
+https://cristynabc.github.io/SAP010-data-lovers/ 😊
 
 
 ## Índice
@@ -20,7 +21,6 @@ https://cristynabc.github.io/SAP010-data-lovers/ 😊
 Neste segundo projeto de Laboratoria, achamos interessante trabalhar com dados de Pokémon e criar uma página web chamada PokéData Go, que permite ao usuário, pesquisar sobre os dados mais relevantes de seus personagens.
 
 
-
 ## 2. Definição de produto 📝
 
 Com o PokéData Go, criamos cartões que exibem dados do pokémon para que o usuário possa navegar rapidamente e capturar as informações necessárias sobre seu pokémon favorito.
@@ -28,23 +28,19 @@ Com o PokéData Go, criamos cartões que exibem dados do pokémon para que o usu
 
 
 ## 3. Histórias de usuário 🙋‍♀️🙋‍♂️🙋‍♀️
-<ul>
-     <li> Usuária Clara Quijada 
+
+     * Usuária Clara Quijada 
 Idade: 30 anos <br>
-Como jogadora de pokémon go, quero que os personagens apareçam filtrados por tipo, porque agora tenho que ir procurá-los para poder selecioná-los</li>
-<br>
+Como jogadora de pokémon go, quero que os personagens apareçam filtrados por tipo, porque agora tenho que ir procurá-los para poder selecioná-los.
 
-    <li> Usuário  Paulo Crocomo 
+
+     * Usuário  Paulo Crocomo 
 Idade: 36 anos <br>
-Como um jogador avançado de Pokémon Go, gostaria de poder filtrar os pokémon por tipos de ataques para compará-los e definir as melhores combinações de ataques</li>
-<br>
+Como um jogador avançado de Pokémon Go, gostaria de poder filtrar os pokémon por tipos de ataques para compará-los e definir as melhores combinações de ataques.
 
-     <li> Usuária Josefina Perez 
+
+    * Usuária Josefina Perez 
 Idade: 52 anos <br>
-Não conheço pokemon go, mas gostaria de começar a jogar e seria ótimo saber quais são seus nomes, seria ideal se fossem organizados em ordem alfabética</li>
-
-</ul>
-
 
 ## 4. Desenho de interface do usuário
 
@@ -72,12 +68,15 @@ GitHubPages para hospedagem de site estático .
 
 GitHub para armazenar o repositório do projeto.
 
-CSS/HTML/JS para estilização, marcação de texto e linguagem de programação.
+CSS/HTML/JS para estilização, marcação de texto e linguagem de programação, respectivamente.
 
+
+## 7. Desenvolvedoras 💕
 
 ## 7. Desenvolvedoras
 
-Cristina Costa <a href="https://github.com/CristynaBC">  <br>
+
+Cristina Costa <a href="https://github.com/CristynaBC">
 Ninoska Contreras <a href="https://github.com/NiEl0503">
 
 
