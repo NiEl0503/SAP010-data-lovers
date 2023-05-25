@@ -66,6 +66,9 @@ A princípio tínhamos a ideia de que os botões das nossas páginas ficariam do
 ## 5. Testes de usabilidade
 
 
+<a href="https://docs.google.com/forms/d/1WNftXER5GJLubxs8ozf1oV547c7AEbu8kJPG9Zgsv00/edit#responses">Aperte aqui</a>
+
+
 ## 6. Tecnologias utilizadas ✅
 
 Figma para o desenho do prótipo de baixa fidelidade.
