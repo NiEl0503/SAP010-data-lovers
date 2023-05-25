@@ -3,7 +3,7 @@
 <img src="logo.png" alt="logo Pokedata"> 
 
 
-                   https://cristynabc.github.io/SAP010-data-lovers/ 😊
+https://cristynabc.github.io/SAP010-data-lovers/ 😊
 
 
 ## Índice
@@ -51,7 +51,7 @@ Idade: 52 anos <br>
 A princípio tínhamos a ideia de que os botões das nossas páginas ficariam do lado esquerdo, mas quando começamos a fazer as páginas gostamos de como ficavam no topo dos cartões, por isso mudamos de ideia e a ideia original não foi seguida 100%, porém estamos satisfeitas e muito felizes com os resultados obtidos.
 
    * 4.1. Protótipo de baixa fidelidade
-<img src="bajafideli.png" alt="prototipo caneta e lápis">
+<img src="bajafidelidade.png" alt="prototipo caneta e lápis">
 <img src="bajafid2.png" alt="prototipo caneta e lápis">
 
 
