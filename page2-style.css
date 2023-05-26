@@ -60,34 +60,7 @@ header {
 
 }
 
-.pokemonSelection {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  flex-direction: row;
-  align-items: space-around;
-  justify-content: space-around;
-}
-
-input {
-  width: 40vw;
-  max-width: 250px;
-  margin: 20px;
-  padding: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  border: 2px solid rgb(43, 144, 226);
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgb(43, 144, 226);
-  text-align: center;
-}
-
-input:hover {
-  box-shadow: rgba(107, 166, 255, 0.295) 0px 30px 60px -12px inset,
-    rgba(104, 160, 245, 0.3) 0px 18px 36px -18px inset;
-}
-
-#confirm {
+.type-filter {
   width: 20vw;
   max-width: 150px;
   margin: 20px;
@@ -98,14 +71,28 @@ input:hover {
   background: linear-gradient(#6890f0, #386ceb);
   border-radius: 10px;
   border: 0px;
-  color: white;
+  color: #2c4274;
 }
 
-#confirm:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  background: linear-gradient(#5d7fce, #2c53b6);
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 40px;
 }
+
+
+.pokemonSelection {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: space-around;
+}
+
 
 main {
   height: 100%;
