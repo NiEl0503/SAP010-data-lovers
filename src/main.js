@@ -62,10 +62,10 @@ typeInput.addEventListener("change", () => {
 const sortNameInput = document.getElementById("sortName");
 sortNameInput.addEventListener("change", () => {
   if (sortNameInput.value === "A-Z") {
-    const orderedByNamePokemons = sortByName('value', 'a-z', data.pokemon);
+    const orderedByNamePokemons = sortByName('a-z', data.pokemon);
     return updatePokemonList(orderedByNamePokemons);
   } else if (sortNameInput.value === "Z-A") {
-    const orderedByNamePokemons = sortByName('value', 'z-a', data.pokemon);
+    const orderedByNamePokemons = sortByName('z-a', data.pokemon);
     return updatePokemonList(orderedByNamePokemons);
   }
 });
@@ -74,10 +74,10 @@ sortNameInput.addEventListener("change", () => {
 const sortNumInput = document.getElementById("sortNum");
 sortNumInput.addEventListener("change", () => {
   if (sortNumInput.value === "0-9") {
-    const orderedByNumPokemons = sortByNum('value', 'asc', data.pokemon);
+    const orderedByNumPokemons = sortByNum('asc', data.pokemon);
     return updatePokemonList(orderedByNumPokemons);
   } else if (sortNumInput.value === "9-0") {
-    const orderedByNumPokemons = sortByNum('value', 'desc', data.pokemon);
+    const orderedByNumPokemons = sortByNum('desc', data.pokemon);
     return updatePokemonList(orderedByNumPokemons);
   }
 });
