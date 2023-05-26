@@ -65,9 +65,20 @@ A princípio tínhamos a ideia de que os botões das nossas páginas ficariam do
 
 ## 5. Testes de usabilidade  💻
 
+<a href="https://docs.google.com/forms/d/1WNftXER5GJLubxs8ozf1oV547c7AEbu8kJPG9Zgsv00/edit#responses">Aperte aqui</a>
+
+
 Ao fazer os testes de usabilidade, alguns de nossos usuários sugeriram que acomodássemos o design responsivo na página inicial e que na página de comparação seria muito mais fácil selecionar os diferentes pokémons de uma lista do que digitá-los, por isso nós realizou várias alterações em nosso projeto, de forma que fosse mais útil para nossos usuários.
 
-<a href="https://docs.google.com/forms/d/1WNftXER5GJLubxs8ozf1oV547c7AEbu8kJPG9Zgsv00/edit#responses">Aperte aqui</a>
+  * Antes
+
+  <img src="antes.png" alt="">
+
+
+  * Depois
+
+<img src="depois.png" alt="">
+
 
 
 ## 6. Tecnologias utilizadas ✅
