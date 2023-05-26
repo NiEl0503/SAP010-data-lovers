@@ -3,23 +3,12 @@ import data from "./data/pokemon/pokemon.js";
 const pokemonDataList = [...data.pokemon];
 //peguei a lista de pokémons em uma array
 
-
-
-const firstPokemonForm = document.getElementById("firstPokeForm") 
-
-
-firstPokemonForm.addEventListener("submit", (event) => { //event listener de submit no form
-
-  event.preventDefault();           //prevent default para não tentar enviar
+const typeSelect = document.getElementById("typeFilter"); 
+typeSelect.addEventListener("change", () => {
+  const firstSelectedPokemon = document.getElementById("typeFilter").value.toLowerCase()   
+  const firstSearchedPoke = pokemonDataList.find(pokemon => pokemon.name === firstSelectedPokemon) 
     
-  const firstSelectedPokemon = document.getElementById("pokeNameInputFirst").value.toLowerCase()    //pega o valor do input do nome do pokemon digitado
-    
-  const firstSearchedPoke = pokemonDataList.find(pokemon => pokemon.name === firstSelectedPokemon) //usa o método find para percorrer o objeto e achar um pokémon com o nome
-
-    
-   
-   
-  if (firstSearchedPoke) {           //como if usa lógica booleana, dá para escrever assim, é como se fosse if firstSearchedPoke == true
+  if (firstSearchedPoke) {     
         
     const pokemonCardOne = document.querySelector("#pokémon-card-one-container")
     let typePkm = ""
@@ -28,7 +17,6 @@ firstPokemonForm.addEventListener("submit", (event) => { //event listener de sub
     });
 
     pokemonCardOne.innerHTML = `
-               
         <div class="pokémon-card" id="pokemon-card-one">
             <p id="firstPokeNum"> # ${firstSearchedPoke.num}</p>
             <img id="firstPokeImg" src="${firstSearchedPoke.img}">
@@ -41,47 +29,28 @@ firstPokemonForm.addEventListener("submit", (event) => { //event listener de sub
             <p class="pokeStatsStyle">Base Attack: ${firstSearchedPoke.stats["base-attack"]}</p>
             <p class="pokeStatsStyle">Base Defense: ${firstSearchedPoke.stats["base-defense"]}</p>
         </div>
-        
-        
         `
-        
-        
+               
   } else {
-    alert("Please, insert a valid pokémon name")
-  }
-
-
-
+     return pokemonCardOne
+    }
 })
 
 
 
 // segundo pokémon
-
-
-
-const secondPokemonForm = document.getElementById("secondPokeForm")
-
-secondPokemonForm.addEventListener("submit", (event) => { 
-  event.preventDefault();           
-    
-  const secondSelectedPokemon = document.getElementById("pokeNameInputSecond").value.toLowerCase()    
-    
+const typeSelection = document.getElementById("typeFilters"); 
+typeSelection.addEventListener("change", () => {
+  const secondSelectedPokemon = document.getElementById("typeFilters").value.toLowerCase()   
   const secondSearchedPoke = pokemonDataList.find(pokemon => pokemon.name === secondSelectedPokemon) 
-    
-   
   if (secondSearchedPoke) {          
-    // console.log("teste")
-        
-    const pokemonCardTwo = document.querySelector("#pokémon-card-two-container")
+        const pokemonCardTwo = document.querySelector("#pokémon-card-two-container")
     let typePkm = ""
     secondSearchedPoke.type.forEach((type) => {
       typePkm += `<p class="type-style ${type}">${type}</p>`
     });
     pokemonCardTwo.innerHTML = `
-        
-        
-                   
+                           
         <div class="pokémon-card" id="pokemon-card-two">
             <p id="secondPokeNum"> # ${secondSearchedPoke.num}</p>
             <img id="secondPokeImg" src="${secondSearchedPoke.img}">
@@ -94,17 +63,13 @@ secondPokemonForm.addEventListener("submit", (event) => {
             <p class="pokeStatsStyle">Base Attack: ${secondSearchedPoke.stats["base-attack"]}</p>
             <p class="pokeStatsStyle">Base Defense: ${secondSearchedPoke.stats["base-defense"]}</p>
         </div>
-        
-        
+               
         `
         
-        
-  } else {
-    alert("Please, insert a valid pokémon name")
-  }
-
-
-})
+      } else {
+        return pokemonCardTwo
+       }
+   })
 
 
 
