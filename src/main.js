@@ -43,6 +43,7 @@ function updatePokemonList(filteredPokemons) {
 
     pkmCards.appendChild(card);
   });
+  htmlStatistic.textContent = " "
 }
 
 //filtrar por tipo
@@ -53,10 +54,10 @@ typeInput.addEventListener("change", () => {
   updatePokemonList(filteredPokemons);
   const pokemonCount = filteredPokemons.length;
   const typePercentage = (pokemonCount / data.pokemon.length) * 100;
-  htmlStatistic.textContent =(
+  htmlStatistic.textContent = 
     `There are ${pokemonCount} Pokémon of the selected Type, which is equivalent to ${typePercentage.toFixed(
       2
-    )}% of all the 251 Pokémon.`)
+    )}% of all the 251 Pokémon.`
 });
 
 //função de ordenar em ordem alfabética
@@ -68,7 +69,8 @@ sortNameInput.addEventListener("change", () => {
   } else if (sortNameInput.value === "Z-A") {
     const orderedByNamePokemons = sortByNameZA();
     return updatePokemonList(orderedByNamePokemons);
-  }
+  } 
+ 
 });
 
 //ordenar por número
