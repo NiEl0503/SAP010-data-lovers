@@ -36,23 +36,23 @@ typeSelect.addEventListener("change", () => {
            <p class="pokeStatsStyle">Base Attack: ${firstSearchedPoke.stats["base-attack"]}</p>
             <p class="pokeStatsStyle">Base Defense: ${firstSearchedPoke.stats["base-defense"]}</p>
         </div>
-        `;
+        `
+               
   } else {
-    return pokemonCardOne;
-  }
-});
+     return pokemonCardOne
+    }
+})
+
+
 
 // segundo pokémon
 const typeSelection = document.getElementById("typeFilters");
 typeSelection.addEventListener("change", () => {
-  const secondSelectedPokemon = document
-    .getElementById("typeFilters")
-    .value.toLowerCase();
-  const secondSearchedPoke = pokemonDataList.find(
-    (pokemon) => pokemon.name === secondSelectedPokemon
-  );
-  if (secondSearchedPoke) {
-    let typePkm = "";
+  const secondSelectedPokemon = document.getElementById("typeFilters").value.toLowerCase()   
+  const secondSearchedPoke = pokemonDataList.find(pokemon => pokemon.name === secondSelectedPokemon) 
+  if (secondSearchedPoke) {          
+        const pokemonCardTwo = document.querySelector("#pokémon-card-two-container")
+    let typePkm = ""
     secondSearchedPoke.type.forEach((type) => {
       typePkm += `<p class="type-style ${type}">${type}</p>`;
     });
@@ -71,8 +71,14 @@ typeSelection.addEventListener("change", () => {
             <p class="pokeStatsStyle">Base Defense: ${secondSearchedPoke.stats["base-defense"]}</p>
         </div>
                
-        `;
-  } else {
-    return pokemonCardTwo;
-  }
-});
+        `
+        
+      } else {
+        return pokemonCardTwo
+       }
+   })
+
+
+
+
+
