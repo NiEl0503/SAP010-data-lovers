@@ -1,10 +1,8 @@
 import {
   filterByType,
   searchByName,
-  sortByNameAZ,
-  sortByNameZA,
-  sortByNumDes,
-  sortByNumAsc,
+  sortByName,
+  sortByNum,
 } from "./data.js";
 import data from "./data/pokemon/pokemon.js";
 
@@ -50,8 +48,9 @@ function updatePokemonList(filteredPokemons) {
 const typeInput = document.getElementById("typeFilter");
 typeInput.addEventListener("change", () => {
   const selectedType = typeInput.value.toLowerCase();
-  const filteredPokemons = filterByType(selectedType);
+  const filteredPokemons = filterByType(selectedType, data.pokemon);
   updatePokemonList(filteredPokemons);
+  
   const pokemonCount = filteredPokemons.length;
   const typePercentage = (pokemonCount / data.pokemon.length) * 100;
   htmlStatistic.textContent = 
@@ -60,27 +59,25 @@ typeInput.addEventListener("change", () => {
     )}% of all the 251 Pokémon.`
 });
 
-//função de ordenar em ordem alfabética
 const sortNameInput = document.getElementById("sortName");
 sortNameInput.addEventListener("change", () => {
   if (sortNameInput.value === "A-Z") {
-    const orderedByNamePokemons = sortByNameAZ();
+    const orderedByNamePokemons = sortByName('value', 'a-z', data.pokemon);
     return updatePokemonList(orderedByNamePokemons);
   } else if (sortNameInput.value === "Z-A") {
-    const orderedByNamePokemons = sortByNameZA();
+    const orderedByNamePokemons = sortByName('value', 'z-a', data.pokemon);
     return updatePokemonList(orderedByNamePokemons);
-  } 
- 
+  }
 });
 
-//ordenar por número
+// Ordenar por número
 const sortNumInput = document.getElementById("sortNum");
 sortNumInput.addEventListener("change", () => {
   if (sortNumInput.value === "0-9") {
-    const orderedByNumPokemons = sortByNumAsc();
+    const orderedByNumPokemons = sortByNum('value', 'asc', data.pokemon);
     return updatePokemonList(orderedByNumPokemons);
   } else if (sortNumInput.value === "9-0") {
-    const orderedByNumPokemons = sortByNumDes();
+    const orderedByNumPokemons = sortByNum('value', 'desc', data.pokemon);
     return updatePokemonList(orderedByNumPokemons);
   }
 });
@@ -89,8 +86,8 @@ sortNumInput.addEventListener("change", () => {
 const searchNameInput = document.getElementById("searchByName");
 searchNameInput.addEventListener("input", () => {
   const nameInput = searchNameInput.value.toLowerCase();
-  const filteredPokemons = searchByName(nameInput);
+  const filteredPokemons = searchByName(nameInput, data.pokemon);
   updatePokemonList(filteredPokemons);
 });
 
-//cálculo agregado
+
