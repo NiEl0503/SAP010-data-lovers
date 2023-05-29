@@ -39,8 +39,8 @@ typeSelect.addEventListener("change", () => {
         `
                
   } else {
-     return pokemonCardOne
-    }
+    return pokemonCardOne
+  }
 })
 
 
@@ -51,7 +51,7 @@ typeSelection.addEventListener("change", () => {
   const secondSelectedPokemon = document.getElementById("typeFilters").value.toLowerCase()   
   const secondSearchedPoke = pokemonDataList.find(pokemon => pokemon.name === secondSelectedPokemon) 
   if (secondSearchedPoke) {          
-        const pokemonCardTwo = document.querySelector("#pokémon-card-two-container")
+    const pokemonCardTwo = document.querySelector("#pokémon-card-two-container")
     let typePkm = ""
     secondSearchedPoke.type.forEach((type) => {
       typePkm += `<p class="type-style ${type}">${type}</p>`;
@@ -73,10 +73,10 @@ typeSelection.addEventListener("change", () => {
                
         `
         
-      } else {
-        return pokemonCardTwo
-       }
-   })
+  } else {
+    return pokemonCardTwo
+  }
+})
 
 
 
