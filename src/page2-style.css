@@ -62,7 +62,7 @@ header {
 
 .type-filter {
   width: 20vw;
-  max-width: 150px;
+  max-width: 200px;
   margin: 20px;
   padding: 10px;
   font-size: 16px;
@@ -80,7 +80,7 @@ header {
   width: 100vw;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-left: 40px;
+  
 }
 
 
@@ -390,5 +390,10 @@ main {
   .prompt {
     font-size: 1.5rem;
     padding: 10px 10px 10px 10px;
+  }
+
+  .type-filter {
+    width: 40vw;
+    margin: 0 0 0 0 ;
   }
 }
