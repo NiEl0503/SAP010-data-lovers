@@ -1,4 +1,4 @@
-# PokéData Go 
+![Screenshot from 2023-06-14 20-12-37](https://github.com/CristynaBC/SAP010-card-validation/assets/72891895/55429121-d597-4967-9bb8-ab13b4f705ce)
 
 >  Pokedata Go é um website temático sobre Pokémon, onde os usuários podem visualizar e classificar os Pokémons em cards. Este projeto foi desenvolvido como uma ferramenta para ajudar os fãs de Pokémon a explorar e aprender mais sobre os diferentes Pokémons das duas primeiras gerações.
 
@@ -50,42 +50,24 @@ Com o PokéData Go, criamos cartões que exibem dados do pokémon para que o usu
 Ao considerar as necessidades e expectativas desses diferentes grupos de usuários, buscamos criar uma experiência do usuário abrangente e envolvente no Pokedata Go, atendendo a um público diversificado de jogadores de Pokémon e fãs da franquia.
     
 
-## 4. Desenho de interface do usuário  📝
-
-> Inicialmente, tínhamos concebido a ideia de posicionar os botões das nossas páginas à esquerda. Contudo, ao iniciar o desenvolvimento das páginas, notamos que preferíamos a disposição dos botões no topo dos cartões. Portanto, optamos por uma abordagem diferente da ideia original, adaptando-a para melhor atender às nossas preferências estéticas e funcionais. 
-
-   * 4.1. Protótipo de baixa fidelidade
-<img src="bajafidelidade.png" alt="prototipo caneta e lápis">
-<img src="bajafid2.png" alt="prototipo caneta e lápis">
+## 4. Interface Web 📝
 
 
 
-  * 4.2. Protótipo de alta fidelidade
-<img src="altfideli.png" alt="prototipo em figma">
-<img src="altfid2.png" alt="prototipo em figma">
+![Screenshot from 2023-06-14 20-11-45](https://github.com/CristynaBC/SAP010-card-validation/assets/72891895/f92d0bab-ed69-4ae1-b593-947d42ef95af)
+
+![Screenshot from 2023-06-14 20-12-01](https://github.com/CristynaBC/SAP010-card-validation/assets/72891895/f14fbf6f-de1e-49bf-ac90-749624672b43)
 
 
 
 
 ## 5. Testes de usabilidade  💻
 
-<a href="https://docs.google.com/forms/d/1WNftXER5GJLubxs8ozf1oV547c7AEbu8kJPG9Zgsv00/edit#responses">Aperte aqui</a>
+--  Durante os testes de usabilidade, recebemos valiosas sugestões dos nossos usuários. Uma delas foi a necessidade de aprimorar o design responsivo da página inicial, a fim de garantir uma experiência consistente em diferentes dispositivos. Além disso, os usuários destacaram que seria mais conveniente e intuitivo selecionar os diferentes Pokémons a partir de uma lista, em vez de digitá-los manualmente, na página de comparação.
 
+-- Diante desses feedbacks, implementamos diversas alterações significativas em nosso projeto. Nosso objetivo principal foi tornar o website mais útil e amigável para os nossos usuários, levando em consideração as suas preferências e necessidades. Ao abraçar essas sugestões e realizar as devidas modificações, buscamos proporcionar uma experiência otimizada e agradável para todos os usuários do Pokedata Go.
 
-  Durante os testes de usabilidade, recebemos valiosas sugestões dos nossos usuários. Uma delas foi a necessidade de aprimorar o design responsivo da página inicial, a fim de garantir uma experiência consistente em diferentes dispositivos. Além disso, os usuários destacaram que seria mais conveniente e intuitivo selecionar os diferentes Pokémons a partir de uma lista, em vez de digitá-los manualmente, na página de comparação.
-
-  Diante desses feedbacks, implementamos diversas alterações significativas em nosso projeto. Nosso objetivo principal foi tornar o website mais útil e amigável para os nossos usuários, levando em consideração as suas preferências e necessidades. Ao abraçar essas sugestões e realizar as devidas modificações, buscamos proporcionar uma experiência otimizada e agradável para todos os usuários do Pokedata Go.
-
-  * Antes
-
-  <img src="antes.png" alt="">
-
-
-  * Depois
-
-<img src="depois.png" alt="">
-
-
+  
 
 ## 6. Tecnologias utilizadas ✅
 
