@@ -61,7 +61,7 @@ Ao considerar as necessidades e expectativas desses diferentes grupos de usuári
 
 
 ## 5. Interface Mobile 
-![Screenshot from 2023-06-14 20-50-20](https://github.com/CristynaBC/SAP010-card-validation/assets/72891895/821723ad-81df-4cc1-9815-b4679b3816e3) ![Screenshot from 2023-06-14 20-50-37](https://github.com/CristynaBC/SAP010-card-validation/assets/72891895/06dc649a-c121-4510-be18-b3b08bde864e) ![Screenshot from 2023-06-14 20-50-26](https://github.com/CristynaBC/SAP010-card-validation/assets/72891895/4f9b112f-747e-4eaa-98ae-7deb034bd7b2)
+![Screenshot from 2023-06-14 20-50-20](https://github.com/CristynaBC/SAP010-card-validation/assets/72891895/821723ad-81df-4cc1-9815-b4679b3816e3) ![Screenshot from 2023-06-14 20-50-26](https://github.com/CristynaBC/SAP010-card-validation/assets/72891895/4f9b112f-747e-4eaa-98ae-7deb034bd7b2)
 
 
 ## 6. Testes de usabilidade  💻
