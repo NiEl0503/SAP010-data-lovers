@@ -74,9 +74,9 @@ Ao considerar as necessidades e expectativas desses diferentes grupos de usuári
 
 ## 7. Tecnologias utilizadas ✅
 
-- Figma para o desenho do prótipo de baixa fidelidade.
+- Figma para o desenho do prótipo de alta fidelidade.
 
-- GitHub Pages para hospedagem de site estático .
+- GitHub Pages para hospedagem da aplicação.
 
 - GitHub para armazenar o repositório do projeto.
 
