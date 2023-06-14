@@ -1,14 +1,17 @@
-# Data Lovers - PokéData Go 
+# PokéData Go 
 
-<img src="logo.png" alt="logo Pokedata"> 
+>  Pokedata Go é um website temático sobre Pokémon, onde os usuários podem visualizar e classificar os Pokémons em cards. Este projeto foi desenvolvido como uma ferramenta para ajudar os fãs de Pokémon a explorar e aprender mais sobre os diferentes Pokémons das duas primeiras gerações.
 
 
-https://cristynabc.github.io/SAP010-data-lovers/ 😊
+Este projeto foi desenvolvido como parte do bootcamp da Laboratoria, uma iniciativa educacional que visa capacitar mulheres para o mercado de tecnologia. 
+
+O principal objetivo deste projeto foi fornecer uma oportunidade de estudo e prática de habilidades técnicas, incluindo HTML, CSS e JavaScript, bem como melhorar o entendimento sobre desenvolvimento web.
+
 
 
 ## Índice
 
-* [1. Resumo do Projeto](#1-resumo-do-projeto)
+* [1. Funcionalidades ](#1-Funcionalidades)
 * [2. Definição de produto](#2-Definição-de-produto)
 * [3. Histórias de usuário](#3-Histórias-de-usuário)
 * [4. Desenho de interface do usuário](#4-Desenho-de-interface-do-usuário)
@@ -18,9 +21,11 @@ https://cristynabc.github.io/SAP010-data-lovers/ 😊
 
 
 
-## 1. Resumo do Projeto 👨‍💻
+## 1. Funcionalidades
 
-Neste segundo projeto de Laboratoria, achamos interessante trabalhar com dados de Pokémon e criar uma página web chamada PokéData Go, que permite ao usuário, pesquisar sobre os dados mais relevantes de seus personagens.
+- Visualização de Pokémons em cards: Os usuários podem ver os Pokémons em cards intuitivos e atraentes, exibindo informações importantes, como nome, tipo e número da pokédex.
+- Classificação de Pokémons: Os usuários têm a capacidade de classificar os Pokémons de acordo com suas preferências, como por tipo, nome e número da pokédex.
+Detalhes do Pokémon: Ao clicar em um card de Pokémon, os usuários podem obter informações detalhadas sobre aquele Pokémon específico, incluindo descrição, evoluções e outras características relevantes.
 
 
 
@@ -32,23 +37,22 @@ Com o PokéData Go, criamos cartões que exibem dados do pokémon para que o usu
 
 ## 3. Histórias de usuário 🙋‍♀️🙋‍♂️🙋‍♀️
 
-     * Usuária Clara Quijada 
-Idade: 32 anos <br>
-Como jogadora de pokémon go, quero que os personagens apareçam filtrados por tipo, porque agora tenho que ir procurá-los para poder selecioná-los.
+> Com base em entrevistas realizadas com diferentes grupos de usuários, identificamos três perfis principais de usuários para o Pokedata Go: Jogadores de Pokémon Go, Fãs do Anime e Jogos Antigos de Pokémon e Crianças Fãs de Pokémon. Essas entrevistas nos permitiram compreender as necessidades, expectativas e desejos específicos de cada grupo ao utilizar um website temático de Pokémon.
+
+-- *"Como jogador intermediário do Pokémon Go, quero ser capaz de comparar Pokémons com base em suas estatísticas de ataque, defesa e pontos de combate para determinar quais são os mais poderosos e estratégicos para usar em batalhas."*
 
 
-     * Usuário  Paulo Crocomo 
-Idade: 36 anos <br>
-Como um jogador avançado de Pokémon Go, gostaria de poder filtrar os pokémon por tipos de ataques para compará-los e definir as melhores combinações de ataques.
+-- *"Como fã do anime Pokémon desejo ter acesso a informações básicas sobre cada Pokémon, como tipo, evoluções e habilidades, para obter uma melhor compreensão do universo Pokémon."*
 
 
-    * Usuária Josefina Perez 
-Idade: 52 anos <br>
+-- *"Como uma criança fã de pokémon, gostaría de ter uma interface amigável e intuitiva que me permita navegar facilmente pelos diferentes Pokémons, para que posso aprender mais sobre eles enquanto exploro o website."*
 
+Ao considerar as necessidades e expectativas desses diferentes grupos de usuários, buscamos criar uma experiência do usuário abrangente e envolvente no Pokedata Go, atendendo a um público diversificado de jogadores de Pokémon e fãs da franquia.
+    
 
 ## 4. Desenho de interface do usuário  📝
 
-A princípio tínhamos a ideia de que os botões das nossas páginas ficariam do lado esquerdo, mas quando começamos a fazer as páginas gostamos de como ficavam no topo dos cartões, por isso mudamos de ideia e a ideia original não foi seguida 100%, porém estamos satisfeitas e muito felizes com os resultados obtidos.
+> Inicialmente, tínhamos concebido a ideia de posicionar os botões das nossas páginas à esquerda. Contudo, ao iniciar o desenvolvimento das páginas, notamos que preferíamos a disposição dos botões no topo dos cartões. Portanto, optamos por uma abordagem diferente da ideia original, adaptando-a para melhor atender às nossas preferências estéticas e funcionais. 
 
    * 4.1. Protótipo de baixa fidelidade
 <img src="bajafidelidade.png" alt="prototipo caneta e lápis">
@@ -68,7 +72,9 @@ A princípio tínhamos a ideia de que os botões das nossas páginas ficariam do
 <a href="https://docs.google.com/forms/d/1WNftXER5GJLubxs8ozf1oV547c7AEbu8kJPG9Zgsv00/edit#responses">Aperte aqui</a>
 
 
-Ao fazer os testes de usabilidade, alguns de nossos usuários sugeriram que acomodássemos o design responsivo na página inicial e que na página de comparação seria muito mais fácil selecionar os diferentes pokémons de uma lista do que digitá-los, por isso nós realizou várias alterações em nosso projeto, de forma que fosse mais útil para nossos usuários.
+  Durante os testes de usabilidade, recebemos valiosas sugestões dos nossos usuários. Uma delas foi a necessidade de aprimorar o design responsivo da página inicial, a fim de garantir uma experiência consistente em diferentes dispositivos. Além disso, os usuários destacaram que seria mais conveniente e intuitivo selecionar os diferentes Pokémons a partir de uma lista, em vez de digitá-los manualmente, na página de comparação.
+
+  Diante desses feedbacks, implementamos diversas alterações significativas em nosso projeto. Nosso objetivo principal foi tornar o website mais útil e amigável para os nossos usuários, levando em consideração as suas preferências e necessidades. Ao abraçar essas sugestões e realizar as devidas modificações, buscamos proporcionar uma experiência otimizada e agradável para todos os usuários do Pokedata Go.
 
   * Antes
 
@@ -83,16 +89,16 @@ Ao fazer os testes de usabilidade, alguns de nossos usuários sugeriram que acom
 
 ## 6. Tecnologias utilizadas ✅
 
-Figma para o desenho do prótipo de baixa fidelidade.
+- Figma para o desenho do prótipo de baixa fidelidade.
 
-GitHubPages para hospedagem de site estático .
+- GitHub Pages para hospedagem de site estático .
 
-GitHub para armazenar o repositório do projeto.
+- GitHub para armazenar o repositório do projeto.
 
-CSS/HTML/JS para estilização, marcação de texto e linguagem de programação, respectivamente.
+- CSS/HTML/JavaScript para o desenvolvimento do projeto.
 
 
 ## 7. Desenvolvedoras 💕
 
-<strong>Cristina Costa</strong> <a href="https://github.com/CristynaBC">Github</a> | <a href="https://www.linkedin.com/in/cristyna-becker-costa-a36477178/">Linkedin</a> <br>
+<strong>Cristyna Costa</strong> <a href="https://github.com/CristynaBC">Github</a> | <a href="https://www.linkedin.com/in/cristyna-becker-costa-a36477178/">Linkedin</a> <br>
 <strong>Ninoska Contreras</strong> <a href="https://github.com/NiEl0503">Github</a> | <a href="https://www.linkedin.com/in/ninoska-contreras-86b075129/">Linkedin</a>
